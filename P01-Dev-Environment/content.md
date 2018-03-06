@@ -11,7 +11,11 @@ A _developer (dev) environment_ refers to the tools and initial setup a develope
 
 For us, we'll keep things simple and only focus on the tools we'll immediately need to start writing front-end code for our landing page.
 
-The two tools we'll need to have installed are _Google Chrome_ and the _Atom_ text editor. At this point, you should already have _Google Chrome_ installed from the previous tutorial.
+The two tools we'll need to have installed are _Google Chrome_ and the _Atom_ text editor. 
+
+> [info]
+>
+At this point, you should already have _Google Chrome_ installed from the previous tutorial.
 
 Let's quickly install (_Atom_)[https://atom.io/] so we can get started building.
 
@@ -21,11 +25,11 @@ Atom is a popular, open-source text editor that was created by [Github](https://
 
 ![Atom Text Editor](assets/atom_editor.jpg)
 
-Atom is an excellent text editor for beginners and experts alike because of it's design and easy of use. This allows developers to spend more time on coding instead of configuring their text editor.
+Atom is an excellent text editor for beginners and experts alike because of it's design and ease of use. This allows developers to spend more time on coding instead of configuring their text editor.
 
 > [info]
 >
-If you've already installed and are comfortable with another text editor, feel free to use that text editor instead. What's most important is that you feel comfortable and productive when coding.
+If you've already installed and are comfortable with another text editor, feel free to use your text editor of choice instead. What's **most** important is that you feel comfortable and productive when coding.
 
 ## Installing Atom
 

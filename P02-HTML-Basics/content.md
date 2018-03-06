@@ -13,7 +13,7 @@ As we code, we'll want to see how our code is displayed in the browser. To do so
 
 # Opening a HTML File with Chrome
 
-Without a browser, you won't be able to see how the browser displays your code. While we're coding, we'll keep our `index.html` file open along-side in a browser to see our changes as they're made.
+Without a web browser, you won't be able to see how your web page looks (how the code is displayed.) While we're coding, we'll keep our `index.html` file open along-side in a browser to see our changes as they're made.
 
 > [action]
 >
@@ -28,13 +28,13 @@ If you're wondering why our landing page is just a blank page, it's because we h
 
 # Hello, World!
 
-To start, let's get our web page to display the text "Hello, World!" in our browser. We'll begin by adding some default HTML boilerplate code to our `index.html`.
+To start, let's get our web page to display the text `Hello, World!` in our browser. We'll begin by adding some default HTML boilerplate code to our `index.html`.
 
 ## HTML Boilerplate
 
-_Boilerplate Code_ refers to sections of code that are often re-used, with little to no modications. For `.html` files, we'll need to include some _default_ for every new `.html` file.
+_Boilerplate Code_ refers to sections of code that are often re-used, with little to no modications. For `.html` files, we'll need to include some _default_ code in every new `.html` file.
 
-Luckily, _Atom_ (and many other text editors) provide helpful auto-complete features that fill out the standard boilerplate for us (so we don't have to remember it each time!)
+Luckily, _Atom_ (and many other text editors) provide helpful auto-complete features that fill out the standard HTML boilerplate for us (so we don't have to remember it each time!)
 
 > [action]
 >
@@ -43,6 +43,10 @@ In your `index.html` file, add your HTML boilerplate code:
 1. Start by typing `html` in your `index.html` file. The Atom text editor should provide an auto-complete options named `html` as you're typing. ![HTML Boilerplate Auto-complete](assets/html_boilerplate_autocomplete.png)
 1. Hit the _Tab_ or _Return_ key to auto-complete the HTML boilerplate code. ![HTML Boilerplate](assets/html_boilerplate.png)
 
+<!-- break -->
+
+> [info]
+>
 As you continue to use _Atom_, you'll notice that it provides a lot of helpful auto-complete options to make your development experience easier.
 
 At this point, you might be wondering what to make of all of the boilerplate code we just added. Don't worry about it for now.
@@ -67,25 +71,29 @@ Inside the two body tags, of the HTML boilerplate, add the following line of cod
 ...
 ```
 
-That's it! Easy like cake. Don't forget to save the file.
+That's it! Easy like cake. 
 
-Remember, to see what changed, we'll need to navigate back to our browser.
+Don't forget to save the file. 
+
+To see what changed, we'll need to navigate back to our browser.
 
 ## Seeing our Changes
 
-Let's go through the process of viewing the changes after we've made some changes to our `index.html` and saved our changes. Throughout this tutorial, you'll need to do this often.
+Let's look at how to view the changes we've made after we've made modications and saved them in our HTML document. 
+
+Make a mental note to remember this! You'll be doing it often.
 
 > [action]
 >
-In your browser, go back to the tab with your empty landing page. Next, hit the `CMD-R` shortcut to refresh the landing page. You'll see the following:
+In your browser, go back to the tab with your empty landing page. Since your webpage's file path is already in the address bar, you can hit the `CMD-R` shortcut to refresh your landing page. You'll see the following:
 >
 ![Hello World](assets/hello_world.png)
 
-Success! We can see the code we wrote read and displayed by our browser.
+Success! Now we can see the code we wrote displayed by the browser.
 
-And with that, we're already through "Hello, World!" and writing our first HTML code.
+And just like that, we're done with "Hello, World!".
 
-Next, let's circle around and go through the code we've added so far in more depth.
+Next, let's circle around and go through the code we've added so far in greater depth.
 
 # What's in a HTML Element?
 
@@ -122,19 +130,21 @@ You can view a full list of each HTML element by [clicking here.](https://develo
 
 ## Void Elements
 
-The other type of HTML element is known as the _Void Element_. This tag doesn't have a closing tag like the previous one. Instead of the structure of this type of HTML element only involves a opening tag and ocassionaly an attribute or two.
+The other type of HTML element is known as the _Void Element_. This tag doesn't have a closing tag like the previous element type. Instead of the structure of this type of HTML element only involves a opening tag and occasionally an attribute or two.
 
 Let's look at the element structure of a common void element:
 
 ![Void Element Breakdown](assets/void_element_breakdown.png)
 
-In the example above, we breakdown the popular image element that allows us to insert images in our HTML.
+In the example above, we breakdown an image element that allows us to insert images in our HTML.
 
 You'll notice that the opening tag contains the tag name and a few other attributes. Attributes are key/value pairs that provide additional information for the HTML element. 
 
 If you don't quite understand what the image element is doing, don't worry. We'll cover the image element in full later in this section.
 
-Remember! Void elements don't have closing tags.
+> [info]
+>
+Remember–void elements don't have closing tags!
 
 # Reviewing our Boilerplate Code
 
@@ -150,7 +160,7 @@ You might be tempted to think this is a void element. However, this is *not* a H
 
 Next, you'll notice the opening and closing tags of the `html` element. This is the top-level HTML element that will contain all of your other HTML tags.
 
-Next, within the `html` element, is the `head` element. The `head` element provides general information (referred to as metadata) about your web page to the browser. This includes your `.css` stylesheets and `.js` scripts (more on this later.)
+Next, within the `html` element, is the `head` element. The `head` element provides general information (referred to as metadata) about your web page to the browser. This includes links to your `.css` stylesheets and `.js` scripts (more on this later.)
 
 Inside your `head` element, you'll notice a `title` element that's currently empty. This is the title of your HTML document. You'll notice to this point, the browser's title that's displayed on browser's tab is the name of your file. 
 
@@ -172,7 +182,7 @@ Modify the `title` element of your HTML file:
 
 Refresh your landing page in the browser and you should notice the title in the browser's tab change accordingly.
 
-![Tab Doc Title](assets/tab_doc_title.png)
+![Tab Doc Title](assets/tab_head_title.png)
 
 Last, is the `body` element. The `body` element contains all of the content of a HTML document. This is why we wrote our "Hello, World!" `h1` element inside the body. As we begin to add more code to our HTML document, we'll add it within the `body` element.
 
@@ -186,9 +196,9 @@ Let's start with one we're already acquainted with: section headings.
 
 ### Section Heading Element
 
-The _Section Heading_ element are <h1>-<h6>, which are used to format heading text on your web page. Previously, we used the `h1` element to display "Hello, World!" on or web page. In addition, we could use <h2>-<h6> to display more heading text of various size.
+The _Section Heading_ element are `<h1>-<h6>`, which are used to format heading text on your web page. Previously, we used the `h1` element to display "Hello, World!" on or web page. In addition, we could use `<h2>-<h6>` to display more heading text of various size.
 
-We can use <h1>-<h6> as follows:
+We can use `<h1>-<h6>` as follows:
 
 ```
 <h1>Section Heading 1</h1>
@@ -217,7 +227,7 @@ In our browser, the paragraph element will show like so:
 
 ### Anchor Element
 
-The anchor element <a> allows us to create hyperlinks from one web page to another. Each anchor tag contains a _href_ attribute that contains the URL of where the anchor element directs to.
+The anchor element `<a>` allows us to create hyperlinks that link one web page to another. Each anchor tag contains a _href_ attribute that contains the URL of where the anchor element links to when clicked.
 
 To create a new link, we can use the anchor tag like so:
 
@@ -255,11 +265,11 @@ Looks a lot different huh? In fact, with what we've learned about HTML elements,
 >
 Use the HTML elements that we've learned about (section heading, paragraph, anchor) to implement the code for the image below. 
 >
+![Header With No CSS](assets/header_no_css.png)
+>
 Two additional notes to help you along:
 - Don't forget to delete our previous "Hello, World!" code
 - The anchor element should point to the URL `https://www.sfspca.org/adoptions/cats`
->
-![Header With No CSS](assets/header_no_css.png)
 
 After you've attempted the challenge, check your solution below:
 
@@ -346,7 +356,7 @@ A unordered list is a collection (aka list) of elements that is usually displaye
 
 ```
 <ul>
-
+>
 </ul>
 ```
 
@@ -362,11 +372,11 @@ However, rather than directly add content inside of the opening and closing tags
 
 When displayed in a browser, our unordered list will look like a bulleted list:
 
-[Unordered List](assets/unordered_list.png)
+![Unordered List](assets/unordered_list.png)
 
 ### Ordered List
 
-We can also create ordered (aka numbered) lists in our HTML document. To create an ordered list, we enclose any number of list items with the ordered list tag <ol> like so:
+We can also create ordered (aka numbered) lists in our HTML document. To create an ordered list, we enclose any number of list items with the ordered list tag `<ol>` like so:
 
 ```
 <ol>
@@ -384,7 +394,7 @@ Our ordered list will appear as a numbered list:
 
 Let's put the new HTML elements that we learned about into action. We'll build the HTML content for the first section after our header on our landing page.
 
-To review, the final design for our first section will eventually look like this:
+To review, the final design for our first section (not the header) will eventually look like this:
 
 ![First Section Design](assets/first_section_design.jpg)
 
@@ -411,7 +421,7 @@ In your `cats_landing_page` project, create a new folder named `img` to store al
 1. In the prompt, create a new folder with the name `img`. This folder will contain all your image assets. ![New Image Folder](assets/new_img_folder.png)
 1. Finally, move your downloaded image to the new `img` folder in your project. ![Image Folder with Cattitude](assets/img_folder_with_cattitude.png)
 
-With our new image, we can move on to create our first image element!
+With our new image, we can create our first image element!
 
 ## Creating an Image Element
 
@@ -489,7 +499,7 @@ Once you're done, your code should look like the following:
 </ul>
 ```
 >
-Notice that we used <h2> instead of <h1>. This is because we want the section heading for our landing page sections to be smaller than the heading in our initial header.
+Notice that we used `<h2>` instead of `<h1>`. This is because we want the section heading for our landing page sections to be smaller than the heading in our initial header.
 
 Let's see our changes in the browser. Refresh your landing page and you should see the following:
 
@@ -497,8 +507,6 @@ Let's see our changes in the browser. Refresh your landing page and you should s
 
 # What We've Covered
 
-In this section, we've gone over the fundamentals for building web pages. 
+In this section, we've gone over the fundamentals for building web pages. The HTML elements we learned about provide the content and structure of each and every web page. Sure it doesn't look too pretty, but we'll start to fix that next.
 
-The HTML elements we learned about provide the content and structure of each and every web page. Sure it doesn't look too pretty, but we'll start to fix that next!
-
-In the upcoming section, we'll learn about CSS and how to style our HTML elements so that our websites don't look like they're from the 1990s!
+Up next, we'll learn about CSS and how to style our HTML elements so that our websites don't look like they're from the 1990s!
