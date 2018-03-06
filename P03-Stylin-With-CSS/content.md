@@ -23,7 +23,7 @@ In the first paragraph of text, you should see two links to download the HTML an
 
 > [action]
 >
-Download the HTMl of CSS Zen Garden and open it in your browser. You can download it from [CSS Zen Garden](http://www.csszengarden.com/) or [clicking here.](http://www.csszengarden.com/examples/index)
+Download the HTML of CSS Zen Garden and open it in your browser. You can download it by [clicking here.](http://www.csszengarden.com/examples/index)
 
 After opening the HTML file in your browser, you'll see the following:
 
@@ -39,7 +39,7 @@ Go to the [CSS Zen Garden](http://www.csszengarden.com/) web page and click on t
 >
 ![CSS Zen All Designs](assets/css_zen_all_designs.jpg)
 
-On the next page you'll see a gallery of different web pages. Each design is created from the exact same HTML document, with the exact same HTML elements. 
+On the next page you'll see a gallery of different web pages. Each design is created from the exact same HTML document, with the **exact same** HTML elements. 
 
 The only difference? The CSS that's applied to how the HTML elements are styled.
 
@@ -49,7 +49,7 @@ Hopefully, you've started to get a sense for some of the power of CSS. CSS allow
 
 ![Before After CSS Zen](assets/before_after_css_zen.jpg)
 
-Next, we'll need to learn how to create and link a new stylesheet.
+To start writing our own CSS, we'll need to learn how to create and link a new stylesheet.
 
 > [info]
 >
@@ -59,8 +59,6 @@ A stylesheet is a `.css` file, in which we'll write all of our CSS.
 
 Before we start writing our own CSS rules, we'll need to create a new `.css` stylesheet. Let's get to it!
 
-link our new stylesheet to our HTML page. `.css` files are refered to as stylesheets.
-
 > [info]
 >
 There are a couple other ways to write CSS for your HTML doc such as:
@@ -68,7 +66,7 @@ There are a couple other ways to write CSS for your HTML doc such as:
 1. Inline CSS with your HTML element
 1. Adding CSS in the <head> element of your HTML doc
 >
-We won't cover how to do this because both of the ways of writing CSS above are, in the majority of cases, bad practice. Unless, you're creating a small project or something that you're just testing and planning to throw away later, writing CSS using the methods above leads to messy, hard-to-maintain CSS.
+We won't cover how to do this because both of the ways of writing CSS above, in the majority of cases, are bad practice. Unless, you're creating a small project or something that you're just testing and planning to throw away later, writing CSS using the methods above leads to messy, hard-to-maintain CSS.
 
 Throughout this project, we want to keep our project organized. Let's create a new folder to contain all of our project's stylesheets.
 
@@ -79,7 +77,7 @@ In your `cats_landing_page` project, create a new folder named `css` to store al
 1. Open the _Tree View_ in _Atom_ if it's not open already. You can toggle the _Tree View_ with the shortcut `CMD-\` or selecting the command under the _View menu_. ![Toggle Tree View](assets/toggle_tree_view.png)
 1. With your _Tree View_ open, right-click on your `index.html` file. In the contextual menu that pops up, click on `New Folder`. ![New Folder Option](assets/new_folder_option.jpg)
 1. In the prompt, create a new folder with the name `css`. This folder will contain all your stylesheets, or CSS files. ![New CSS Folder](assets/new_css_folder.png)
-1. Right-click on your new `css` folder, create a new file named `style.css`. This will be the stylesheet that contains the CSS for your web page. ![New File Option](assets/new_file_option.jpg)
+1. Right-click on your new `css` folder, create a new file named `style.css`. Make sure you include the `.css` file extension. This will be the stylesheet where you'll write your CSS for your landing page. ![New File Option](assets/new_file_option.jpg)
 >
 When you're done, you should see your new `style.css` stylesheet in your `css` folder. ![CSS Folder With Stylesheet](assets/css_folder_with_stylesheet.png)
 
@@ -107,7 +105,7 @@ Let's look at an example:
 
 ![CSS Rule](assets/css_rule.png)
 
-This is a typical CSS rule. CSS rules are the building blocks of CSS. Each rule allows you to target and specify HTML element(s) and decide what they how they look.
+This is a typical CSS rule. CSS rules are the building blocks of CSS. Each rule allows you to target HTML element(s) and specify how they look.
 
 Each CSS rule contains a selector and declarations:
 
@@ -115,11 +113,15 @@ Each CSS rule contains a selector and declarations:
 
 The selector defines the specific or group of elements that the declarations are applied to.
 
-Within the curly braces of the CSS rule, are one or more declaratins. Each declaration tells the browser how to style the HTML elements(s) targeted by the selector. Declarations are made up of a property and value.
+Within the curly braces of the CSS rule, are one or more declarations. Each declaration tells the browser how to style the HTML elements(s) targeted by the selector. Declarations are made up of a property and value.
 
 ![CSS Declaration Breakdown](assets/css_declaration_breakdown.png)
 
+> [info]
+>
 This is important! For review, a selector targets a specific or group of HTML elements. Within the curly braces of a CSS rule, we add declarations that style the element(s) targeted by the selector.
+
+<!-- break -->
 
 > [info]
 >
@@ -127,7 +129,7 @@ You might be wondering about property names and values. What type of declaration
 >
 Patience. We'll cover the most common CSS properties and values together in the next section. But if you really want to see a list of the most common CSS properties, you can take a peek here at the [MDN web docs.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
 
-In our example, h1 is the selector–meaning that all <h1> elements will be targeted. The two declarations `color` and `font-size` will be applied to all <h1> elements in our HTML doc.
+In our example, h1 is the selector–meaning that all `<h1>` elements will be targeted. The two declarations `color` and `font-size` will be applied to all `<h1>` elements in our HTML doc.
 
 Enough talking. Let's test it out.
 
@@ -151,9 +153,13 @@ After refreshing, you should see the following:
 
 ![Red Section Heading](assets/red_h1.jpg)
 
+> [info]
+>
+If your `<h1>` element isn't showing up as red, double-check that you've properly linked your stylesheet to your HTML document.
+
 # Selectors
 
-In the CSS we just wrote, we used an element as our selector to target all <h1> elements in our HTML doc. In this section, we'll learn about the three most common types of selectors we'll use in our stylesheet:
+In the CSS we just wrote, we used an element as our selector to target all `<h1>` elements in our HTML doc. In this section, we'll learn about the three most common types of selectors we'll use in our stylesheet:
 
 1. Element Type Selector
 1. Class Selector
@@ -163,7 +169,7 @@ In the CSS we just wrote, we used an element as our selector to target all <h1> 
 
 Element type selectors allow us to target group of HTML elements. The declarations of a CSS rule with an element type selector are applied to all instance of the HTML element. Common examples of HTML elements you may want to use as selectors are: `h1`-`h6`, `p`, `img`, `a`.
 
-Similar to the CSS rule we added for our <h1> element, let's add a new CSS rule so our <h2> elements have a hex color of `#8674FC`.
+Similar to the CSS rule we added for our `<h1>` element, let's add a new CSS rule so our `<h2>` elements have a hex color of `#8674FC`.
 
 > [action]
 >
@@ -185,7 +191,7 @@ Now, it's your turn.
 
 > [challenge]
 >
-Write a CSS rule that gives all <p> elements a `color` of `#00DEA0`.
+Write a CSS rule that gives all `<p>` elements a `color` of `#00DEA0`.
 
 <!-- break -->
 
@@ -215,7 +221,7 @@ Adding a class is as simple as inserting a new `class` attribute inside of the o
 <p class="inverted-colors">Insert some paragraph text here...</p>
 ```
 
-Next, let's look at the CSS side and how to target elements that have a class with a class selector. If we wanted to create a class selector, we would write the following CSS rule:
+Next, let's look at the CSS-side and how to target elements using a class selector. If we wanted to create a class selector, we would write the following CSS rule:
 
 ```
 .inverted-colors {
@@ -234,8 +240,11 @@ Add `inverted-colors` to `style.css`:
 >
 ```
 .inverted-colors {
-  background-color: #000000;  // black
-  color: #ffffff;             // white
+  /* black */
+  background-color: #000000;  
+
+  /* white */
+  color: #ffffff;             
 }
 ```
 
@@ -243,13 +252,13 @@ We've added the CSS rule, but haven't added the class to any elements in our HTM
 
 > [challenge]
 >
-Apply the `inverted-colors` class to the first paragraph <p> element in `index.html`.
+Apply the `inverted-colors` class to the first paragraph `<p>` element in `index.html`.
 
 <!-- break -->
 
 > [solution]
 >
-To complete the challenge, your first <p> element should have a new class attribute:
+To complete the challenge, your first `<p>` element should have a new class attribute:
 >
 ```
 // ...
@@ -267,13 +276,13 @@ Next, let's look at what happens if we apply the same class to another HTML elem
 
 > [challenge]
 >
-Apply the `inverted-colors` class to the section heading <h2> element in `index.html`.
+Apply the `inverted-colors` class to the section heading `<h2>` element in `index.html`.
 
 <!-- break -->
 
 > [solution]
 >
-Your <h2> element should look like the following:
+Your `<h2>` element should look like the following:
 >
 ```
 // ...
@@ -283,11 +292,11 @@ Your <h2> element should look like the following:
 // ...
 ```
 
-Refresh the browser once more and should see that the <h2> element now also has it's colors inverted.
+Refresh the browser once more and should see that the `<h2>` element now also has it's colors inverted.
 
 ![Inverted Colors Two](assets/inverted-colors-two.jpg)
 
-This should give you an idea of the benefits of creating classes. Classes and class selectors allow you to create re-usable CSS rules that can be easily applied to multiple HTML elements. In our case, we applied an `inverted-colors` class to both a <p> and <h2> element.
+This should give you an idea of the benefits of creating classes. Classes and class selectors allow you to create re-usable CSS rules that can be easily applied to multiple HTML elements. In our case, we applied an `inverted-colors` class to both a `<p>` and `<h2>` element.
 
 ## ID Selectors
 
@@ -335,13 +344,13 @@ Implement `#example-image` in `style.css`:
 
 > [challenge]
 >
-We'll also need to update our <img> element in our `index.html` to include it's corresponding ID attribute. Add an ID attribute to the <img> element in our HTML doc with the value `example-image`.
+We'll also need to update our `<img>` element in our `index.html` to include it's corresponding ID attribute. Add an ID attribute to the `<img>` element in our HTML doc with the value `example-image`.
 
 <!-- break -->
 
 > [solution]
 >
-You should have added the `#example-image` id to the <img> element like so:
+You should have added the `#example-image` id to the `<img>` element like so:
 >
 ```
 <img id="example-image" src="img/cattitude.jpg" alt="Cat with Attitude">
@@ -357,7 +366,7 @@ As a general rule of thumb, it's better to use classes whereever possible.
 
 > [challenge]
 >
-Create a new ID attribute for the first <li> element named `unique-list-item`. Then add a new CSS rule that changes the `color` property to the hex color value of `#007CED`.
+Create a new ID attribute for the first `<li>` element named `unique-list-item`. Then add a new CSS rule that changes the `color` property to the hex color value of `#007CED`.
 
 <!-- break -->
 
@@ -379,11 +388,11 @@ In your `style.css` you should add the following:
 >
 After refreshing your browser, your landing page should look like the following:
 >
-![Unique List Item](assets/red_list_item.png)
+![Unique List Item](assets/unique_list_item.png)
 
 # Back to Scratch
 
-It's true, we've started styling the HTML elements in `index.html`. But it's also true that our current styling look nothing like our final designs.
+It's true, we've started styling the HTML elements in `index.html`. But it's also true that our current styling looks nothing like our final designs.
 
 This is because many of the CSS rules in our final design are more subtle and harder to see. We made the styling in this first iteration bright and outlandish to make it easy to see the effects of each CSS rule that we added.
 

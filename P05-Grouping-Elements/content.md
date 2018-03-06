@@ -3,25 +3,25 @@ title: "Grouping Elements"
 slug: grouping-elements
 ---
 
-Up to this point, all of the HTML elements we've added are contained within the opening and closing <body> tags in our HTML document. In this section, we'll learn how to group related elements into _containers_.
+Up to this point, all of the HTML elements we've added are contained within the opening and closing `<body>` tags in our HTML document. In this section, we'll learn how to group related elements into _containers_.
 
 But why would we want to group our HTML content into _containers_?
 
 Grouping our HTML content in containers makes it easier for us to target our elements with class and id selectors. This, in turn, makes it easier for us to position and style via CSS.
 
-Let's look at our bread and butter for grouping HTML content: the <div> tag.
+Let's look at our bread and butter for grouping HTML content: the `<div>` tag.
 
 > [info]
 >
-There are a number of additional tags that allow us to group related HTML content together. Some examples include <header>, <section>, <article> and <footer>. All of these HTML elements (including <div>) have no effect on the HTML content itself, but instead group and contain other elements. In this tutorial, we'll cover <div>, <header> and <footer>.
+There are a number of additional tags that allow us to group related HTML content together. Some examples include `<header>`, `<section>`, `<article>` and `<footer>`. All of these HTML elements (including `<div>`) have no effect on the HTML content itself, but instead group and contain other elements. In this tutorial, we'll cover `<div>`, `<header>` and `<footer>`.
 
 # The Content Division Element
 
-The <div> tag is used to group other HTML content together. The <div> element doesn't add or change the content of your HTML. Instead, it's main purpose is to provide an easy way to target and each group.
+The `<div>` tag is used to group other HTML content together. The `<div>` element doesn't add or change the content of your HTML. Instead, it's main purpose is to provide an easy way to target and each group.
 
 ## Creating a <div>
 
-To create a new <div>, we simply surround groups of HTML elements with an opening and closing <div> tag.
+To create a new `<div>`, we simply surround groups of HTML elements with an opening and closing `<div>` tag.
 
 ```
 <div>
@@ -34,7 +34,7 @@ If we look in the browser, you'll notice that the HTML content doesn't change at
 
 ![Div Element](assets/div_element.png)
 
-However, if we add a class attribute to our <div>, we're able to see the dimensions of the container.
+However, if we add a class attribute to our `<div>`, we're able to see the dimensions of the container.
 
 HTML:
 
@@ -55,25 +55,25 @@ CSS:
 }
 ```
 
-When we're done, you can see our <div> and it's content displayed in the browser like so:
+When we're done, you can see our `<div>` and it's content displayed in the browser like so:
 
 ![Styled Div](assets/styled_div.png)
 
-Notice how we're able to use the `margin` and `padding` properties of our containing <div> to position the elements within. In this case, add 20 pixels of padding between each edge of the <div> and it's content.
+Notice how we're able to use the `margin` and `padding` properties of our containing `<div>` to position the elements within. In this case, add 20 pixels of padding between each edge of the `<div>` and it's content.
 
 ![Div Box Model Breakdown](assets/div_box_model_breakdown.png)
 
 > [info]
 >
-Grouping HTML elements with <div> tags also makes it much easier to specifically target elements container within. We'll learn more about more complicated selectors in the upcoming section.
+Grouping HTML elements with `<div>` tags also makes it much easier to specifically target elements container within. We'll learn more about more complicated selectors in the upcoming section.
 
 ## Grouping our Elements
 
-Let's go ahead and start grouping the HTML elements in `index.html` into thier respective <div> tags.
+Let's go ahead and start grouping the HTML elements in `index.html` into thier respective `<div>` tags.
 
 > [challenge]
 >
-Looking at the design below, group the appropriate HTML elements of our header into one <div> and the element of our first section into another.
+Looking at the design below, group the appropriate HTML elements of our header into one `<div>` and the element of our first section into another.
 >
 ![HTML Content Grouping](assets/html_content_grouping.jpg)
 
@@ -81,7 +81,7 @@ Once you've attempted the challenge, check your solution below.
 
 > [solution]
 >
-You should have two separate opening and closing <div> tags that group the HTML elements from each respective section within:
+You should have two separate opening and closing `<div>` tags that group the HTML elements from each respective section within:
 >
 ```
 <body>
@@ -109,7 +109,7 @@ You should have two separate opening and closing <div> tags that group the HTML 
 </body>
 ```
 >
-Notice that each opening and closing <div> tag contains it's group of related elements. This will make it easier for us to use CSS position and style each division.
+Notice that each opening and closing `<div>` tag contains it's group of related elements. This will make it easier for us to use CSS position and style each division.
 
 > [action]
 >
@@ -117,19 +117,19 @@ Refresh your landing page in your browser. You should see the following:
 >
 ![Separated With Divs](assets/separated_w_divs.jpg)
 >
-Not much has changed, because the <div> tag is only used to group elements together. However, one thing to notice is that the cat image and the CTA button are no longer on the same line. This is because the <div> element is a block element and unless otherwise specified, will force content onto separate lines.
+Not much has changed, because the `<div>` tag is only used to group elements together. However, one thing to notice is that the cat image and the CTA button are no longer on the same line. This is because the `<div>` element is a block element and unless otherwise specified, will force content onto separate lines.
 
 # The Header Element
 
-We've grouped our header and first section into their respective <div> containers. However, there's a better container element that's more appropriate for our header content. Can you guess it's name?
+We've grouped our header and first section into their respective `<div>` containers. However, there's a better container element that's more appropriate for our header content. Can you guess it's name?
 
-That's right. The <header> tag is used to contain introductory content such as your product's main heading and tagline.
+That's right. The `<header>` tag is used to contain introductory content such as your product's main heading and tagline.
 
-Similar to the <div> element, the <header> element doesn't change the layout or style of the HTML itself. Let's go ahead and replace the first <div> element with a <header> element instead.
+Similar to the `<div>` element, the `<header>` element doesn't change the layout or style of the HTML itself. Let's go ahead and replace the first `<div>` element with a `<header>` element instead.
 
 > [challenge]
 >
-Replace the header section's <div> element with a <header> element.
+Replace the header section's `<div>` element with a `<header>` element.
 
 <!-- break -->
 
@@ -149,11 +149,11 @@ If you refresh your landing page, nothing will change. But this sets us up nicel
 
 # Adding Style to our Containers
 
-With our new <header> amd <div> elements, let's begin adding some CSS.
+With our new `<header>` amd `<div>` elements, let's begin adding some CSS.
 
 > [challenge]
 >
-In `style.css`, add the following declarations for the <header> element:
+In `style.css`, add the following declarations for the `<header>` element:
 >
 - Background Color: `#F0F8FF`
 - Padding Top and Bottom: `200px`
@@ -163,7 +163,7 @@ When you're done, check your solution below:
 
 > [solution]
 >
-We can target our <header> element and add the following declarations like so:
+We can target our `<header>` element and add the following declarations like so:
 >
 ```
 header {
@@ -188,7 +188,7 @@ Download our header's background image by [clicking here.](insert link) After th
 
 <!-- TODO: add download link for background image -->
 
-Next, we'll need to add some CSS to set our background image for our <header>.
+Next, we'll need to add some CSS to set our background image for our `<header>`.
 
 > [action]
 >
@@ -213,7 +213,7 @@ Once you're finished, refresh your landing page in your browser and you should s
 >
 ![Background Image](assets/background_image.jpg)
 
-It doesn't look exactly like our final design yet, but we're getting warmer. Let's move on to styling our first section <div>.
+It doesn't look exactly like our final design yet, but we're getting warmer. Let's move on to styling our first section `<div>`.
 
 ## Styling our First Section
 
@@ -223,13 +223,13 @@ First, let's create a class attribute for our first section so we can select it 
 
 > [challenge]
 >
-Add a new class attribute for our first section's container <div> named `first-section`.
+Add a new class attribute for our first section's container `<div>` named `first-section`.
 
 <!-- break -->
 
 > [solution]
 >
-Your <div> should now have the following class:
+Your `<div>` should now have the following class:
 >
 ```
 <div class="first-section">
@@ -241,13 +241,13 @@ Your <div> should now have the following class:
 
 > [info]
 >
-To target <div> elements, you can use class or id selectors. In most cases, it's better to use class selectors because they encourage the mindset of building re-usable CSS throughout your stylesheets. If you're interested reading more in-depth on the topic, check out [this article.](http://oli.jp/2011/ids/)
+To target `<div>` elements, you can use class or id selectors. In most cases, it's better to use class selectors because they encourage the mindset of building re-usable CSS throughout your stylesheets. If you're interested reading more in-depth on the topic, check out [this article.](http://oli.jp/2011/ids/)
 
 Next, let's give our first section a background color.
 
 > [challenge]
 >
-Give the first section <div> a background color of `white`.
+Give the first section `<div>` a background color of `white`.
 
 <!-- break -->
 
@@ -281,11 +281,11 @@ In your stylesheet, you should have added the following CSS rule:
 }
 ```
 
-After creating our `.section` CSS rule, we can add the class selector to our <div> element.
+After creating our `.section` CSS rule, we can add the class selector to our `<div>` element.
 
 > [action]
 >
-Add the `section` class to the <div> element of our first section:
+Add the `section` class to the `<div>` element of our first section:
 >
 ```
 <div class="section first-section">
@@ -301,6 +301,6 @@ Refresh our landing page and take a look at our progress.
 
 # Moving On
 
-In this section, we learned about grouping our HTML content into related chunks using container elements like <div> and <header>. This will become especially important as we continue to style our HTML with CSS.
+In this section, we learned about grouping our HTML content into related chunks using container elements like `<div>` and `<header>`. This will become especially important as we continue to style our HTML with CSS.
 
 In the next section, we'll learn more about CSS and how to use inheritance and CSS specificity to write better (more re-usable and maintainable) CSS.

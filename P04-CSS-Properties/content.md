@@ -20,11 +20,11 @@ Keep in mind there are many more CSS properties available. However, we'll focus 
 
 > [info]
 >
-If you don't remember one of the CSS properties, or want to see if another one exists, Google is your friend. Even the most experienced programmers use resources like Google and [StackOverflow](www.stackoverflow.com) to figure out solutions daily.
+If you don't remember one of the CSS properties, or want to see if another one exists, Google is your friend. Even the most experienced programmers use resources like Google and [StackOverflow](www.stackoverflow.com) to figure out solutions for their problems.
 
 ### Color
 
-Perhaps the most common property is `color`. You've already used this property multiple times in the previous section. As you might recall, the color property allows us to specify the text color of an HTML element. This applies to any HTML element that has text content including <h1>-<h6>, <p>, <a> and more.
+Perhaps the most common property is `color`. You've already used this property multiple times in the previous section. As you might recall, the color property allows us to specify the text color of an HTML element. This applies to any HTML element that has text content including `<h1>-<h6>`, `<p>`, `<a>` and more.
 
 There are multiple valid formats for color values, however the most common are hex values, rgba and named colors.
 
@@ -43,7 +43,7 @@ color: black;
 1. RGBA - Allows you to create colors that have an alpha value (or opacity)
 1. Named Colors - Easiest to use but don't give a lot of control over color
 
-To give a <p> element blue text, we could add the following CSS rule:
+To give a `<p>` element blue text, we could add the following CSS rule:
 
 ```
 p {
@@ -51,7 +51,7 @@ p {
 }
 ```
 
-This is how our <p> element would be displayed in our browser:
+This is how our `<p>` element would be displayed in our browser:
 
 ![Color Property](assets/color_property.png)
 
@@ -59,7 +59,7 @@ Now it's your turn.
 
 > [challenge]
 >
-Set the text color of <h1> and <h2> elements to the color black, or #000000.
+Set the text color of `<h1>` and `<h2>` elements to the color black, or #000000.
 
 <!-- break -->
 
@@ -79,7 +79,7 @@ h2 {
 
 ### Font-Size
 
-The `font-size` property allows us to change the size of the font for any text based content. This includes <h1>-<h6>, <p>, <a> and more.
+The `font-size` property allows us to change the size of the font for any text based content. This includes `<h1>-<h6>`, `<p>`, `<a>` and more.
 
 There are a couple different ways to specify the value of `font-size`. In this tutorial, we'll focus on the most basic unit: pixel (px).
 
@@ -95,14 +95,14 @@ In our browser:
 
 [Font Size Property](assets/font_size_property.png)
 
-For our practice, let's change the font size of our <h1> section heading and <p> element.
+For our practice, let's change the font size of our `<h1>` section heading and `<p>` element.
 
 > [challenge]
 >
 Add the following two CSS rules:
 >
-1. Set the <h1> element to have a font size of `36px`
-2. Set the <p> element to have a font size of `20px`
+1. Set the `<h1>` element to have a font size of `36px`
+2. Set the `<p>` element to have a font size of `20px`
 
 <!-- break -->
 
@@ -161,11 +161,11 @@ We can also supply percentages (%) as values for our `height` and `width` proper
 
 > [info]
 >
-The _parent_ element refers to the element that the HTML element is contained within. In this case, all of our HTML are contained within the <body> element. This will change soon once we start learning about the <div> element.
+The _parent_ element refers to the element that the HTML element is contained within. In this case, all of our HTML are contained within the `<body>` element. This will change soon once we start learning about the `<div>` element.
 
 ### Border
 
-The `border` property allows you set a border for your HTML element. We can create a border around our <img> element with the following syntax:
+The `border` property allows you set a border for your HTML element. We can create a border around our `<img>` element with the following syntax:
 
 ```
 img {
@@ -205,13 +205,13 @@ In the browser:
 
 ![Background Image Property](assets/background_image_property.jpg)
 
-Our background image is a rainbow that fills the background of our <h1> element. You can see the height and width or the <h1> element through the edges of the border.
+Our background image is a rainbow that fills the background of our `<h1>` element. You can see the height and width or the `<h1>` element through the edges of the border.
 
 ### Border-Radius
 
 The `border-radius` property allows you to add rounded corners of a HTML elements. This can be especially useful for adding rounded corners to buttons and images.
 
-In action, if we wanted to round the corners of an <img> element, we could add the following in our stylesheet:
+In action, if we wanted to round the corners of an `<img>` element, we could add the following in our stylesheet:
 
 ```
 img {
@@ -239,7 +239,7 @@ The box model refers to the box layout of each HTML element. Each box consists o
 1. Border - Defined by the `border` property. Surrounds the padding and content of an element.
 1. Margin - Defined by the `margin` property. Adds space between the border and other HTML elements. Is transparent.
 
-Let's see what this looks like for our <p> element:
+Let's see what this looks like for our `<p>` element:
 
 ![CSS Box Model](assets/css_box_model.png)
 
@@ -270,7 +270,7 @@ Let's try it now.
 
 > [challenge]
 >
-Add a margin to the bottom of each <li> element of 8px.
+Add a margin to the bottom of each `<li>` element of 8px.
 
 <!-- break -->
 
@@ -284,7 +284,7 @@ li {
 }
 ```
 
-After refreshing your landing page in your browser, you should see more space between each <li> element.
+After refreshing your landing page in your browser, you should see more space between each `<li>` element.
 
 ![List Item Margin Bottom](assets/li_margin_btm.png)
 
@@ -321,4 +321,4 @@ ul {
 }
 ```
 
-We're well in the depths of front-end development. So far, we've learned about building our content with HTML elements and how to style them with CSS. In the next section, we'll learn about the <div> element that allows us to group HTML elements into chunks.
+We're well in the depths of front-end development. So far, we've learned about building our content with HTML elements and how to style them with CSS. In the next section, we'll learn about the `<div>` element that allows us to group HTML elements into chunks.

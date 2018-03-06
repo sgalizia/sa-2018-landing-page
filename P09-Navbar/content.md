@@ -35,7 +35,7 @@ In the documentation, you should see the following:
 
 > [action]
 >
-In `index.html`, copy and paste the navbar code from the [Bootstrap docs](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content) right above the HTML code for your <header> element.
+In `index.html`, copy and paste the navbar code from the [Bootstrap docs](https://getbootstrap.com/docs/4.0/components/navbar/#supported-content) right above the HTML code for your `<header>` element.
 
 Refresh your landing page in your browser and you should see the following:
 
@@ -47,7 +47,7 @@ In addition, if you re-size your browser to a smaller viewport, then you should 
 
 > [info]
 >
-For the navbar hamburger menu to work properly, you'll need to make sure that you've included the JavaScript links at the bottom of your <body> element. The navbar relies on code in these script files to expand and collapse.
+For the navbar hamburger menu to work properly, you'll need to make sure that you've included the JavaScript links at the bottom of your `<body>` element. The navbar relies on code in these script files to expand and collapse.
 >
 ```
 <body>
@@ -67,7 +67,7 @@ Many times, code snippets in Bootstrap's documentation will contain extra code t
 
 > [action]
 >
-In `index.html`, remove the HTML code for the search bar and button within the <form> element.
+In `index.html`, remove the HTML code for the search bar and button within the `<form>` element.
 >
 ```
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -107,7 +107,7 @@ Next, we'll delete the dropdown menu from our navbar links.
 
 > [action]
 >
-In `index.html`, delete the <li> element with a dropdown menu.
+In `index.html`, delete the `<li>` element with a dropdown menu.
 >
 ```
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -146,7 +146,7 @@ Using the documentation, implement the navbar so that it's content is contained 
 
 > [solution]
 >
-You should have moved the HTML content within your <nav> element into a `.container` <div>:
+You should have moved the HTML content within your `<nav>` element into a `.container` `<div>`:
 >
 ```
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -210,7 +210,7 @@ Now that our navbar links are positioned on the right side, let's configure them
 
 > [action]
 >
-In `index.html`, modify the navbar links in your <nav> element to the following:
+In `index.html`, modify the navbar links in your `<nav>` element to the following:
 >
 ```
 <ul class="navbar-nav ml-auto">
@@ -312,13 +312,13 @@ You will have modified your navbar's HTML to the following:
 </nav>
 ```
 >
-You'll notice that the code snippet inclues some extra CSS classes that we won't need to apply to our own logo <img> element.
+You'll notice that the code snippet inclues some extra CSS classes that we won't need to apply to our own logo `<img>` element.
 
-Before we continue, we'll need to add some additional CSS styling to configure our <img> element properly.
+Before we continue, we'll need to add some additional CSS styling to configure our `<img>` element properly.
 
 > [challenge]
 >
-Add a CSS rule to set the logo <img> element to set the height and width to 46px and a right margin of 8px. 
+Add a CSS rule to set the logo `<img>` element to set the height and width to 46px and a right margin of 8px. 
 
 <!-- break -->
 

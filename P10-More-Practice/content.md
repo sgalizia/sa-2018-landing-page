@@ -42,8 +42,8 @@ HTML Elements and Classes: ![Third Section Attributes](assets/third_section_attr
 Additional CSS:
 >
 - Give the third section a white background color
-- Give the <img> element a top margin of 35px
-- Add a media query that sets top margin of the <img> element to 0 if the screen width is above 768px
+- Give the `<img>` element a top margin of 35px
+- Add a media query that sets top margin of the `<img>` element to 0 if the screen width is above 768px
 
 <!-- break -->
 
@@ -107,7 +107,7 @@ You've done this before. Take from here.
 >
 Using the diagrams provided below, implement the design for the fourth section of the landing page.
 >
-If you get stuck, remember that the <header> and fourth section are very similar. You can use the previous code and go back to the tutorial section for reference.
+If you get stuck, remember that the `<header>` and fourth section are very similar. You can use the previous code and go back to the tutorial section for reference.
 >
 Grid Breakpoints: ![Fourth Section Column Sizes](assets/fourth_section_column_sizes.jpg)
 >
@@ -171,14 +171,14 @@ The footer of a website usually contains copyright, privacy policy or other comp
 >
 Using the diagrams provided below, implement the design for the footer of the landing page.
 >
-Grid Breakpoints: Because the <footer> element only contains a single line of text, we won't use a grid to implement our design.
+Grid Breakpoints: Because the `<footer>` element only contains a single line of text, we won't use a grid to implement our design.
 >
 HTML Elements and Classes: ![Footer Attributes](assets/footer_attributes.jpg)
 >
 Additional CSS:
 >
-- Give the <footer> element a white background color
-- Give the <footer> a top and bottom padding of 35px
+- Give the `<footer>` element a white background color
+- Give the `<footer>` a top and bottom padding of 35px
 - Set the small Make School logo image to have a height and width of 22px
 - Set the small Make School logo image to have a bottom margin of 3px
 

@@ -53,7 +53,7 @@ Before we can use Bootstrap, we'll need to do some setup in our HTML document. F
 
 > [action]
 >
-In `index.html`, modify your <head> element to the following:
+In `index.html`, modify your `<head>` element to the following:
 >
 ```
 <head>
@@ -68,7 +68,7 @@ In `index.html`, modify your <head> element to the following:
 </head>
 ```
 >
-1. We add a new responsive view meta tag to our <head> so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile.) We'll learn more about responsiveness, what it is and how to use it later on.
+1. We add a new responsive view meta tag to our `<head>` so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile.) We'll learn more about responsiveness, what it is and how to use it later on.
 2. We add a link to a CSS stylesheet of the Bootstrap CSS
 
 > [info]
@@ -79,7 +79,7 @@ Next, we'll need to add some JavaScript to ensure that various Bootstrap compone
 
 > [action]
 >
-In `index.html`, add the following JavaScript scripts just before the closing <body> tag:
+In `index.html`, add the following JavaScript scripts just before the closing `<body>` tag:
 >
 ```
 <body>
@@ -114,7 +114,7 @@ All of this is automatically added when we include the Bootstrap stylesheet in o
 
 # Basic Styling with Bootstrap Classes
 
-With Bootstrap installed, we'll look at how we can use Bootstrap's CSS to style our HTML content. First, let's center the content within our <header> element so that it's in the middle of the page.
+With Bootstrap installed, we'll look at how we can use Bootstrap's CSS to style our HTML content. First, let's center the content within our `<header>` element so that it's in the middle of the page.
 
 ## Text Alignment
 
@@ -122,7 +122,7 @@ To center our HTML elements, we'll use a Bootstrap class named `text-center` tha
 
 > [challenge]
 >
-In `index.html`, add the `text-center` class as an attribute to our <header> tag:
+In `index.html`, add the `text-center` class as an attribute to our `<header>` tag:
 
 When you're done, check your solution below.
 
@@ -136,9 +136,9 @@ You can add a class attribute to an HTML element like so:
   </header>
 ```
 >
-Because `text-alignment` is a property that is inherited by child elements, we'll add this to our parent <header> element instead of adding it to each respective <h1>, <p> and <a> element individually. This saves us from cluttering our HTML code with extra class attributes.
+Because `text-alignment` is a property that is inherited by child elements, we'll add this to our parent `<header>` element instead of adding it to each respective `<h1>`, `<p>` and `<a>` element individually. This saves us from cluttering our HTML code with extra class attributes.
 >
-Refresh your landing page in your browser and take a look at the <header> of your landing page: ![Header Text Center](assets/header_text_center.jpg)
+Refresh your landing page in your browser and take a look at the `<header>` of your landing page: ![Header Text Center](assets/header_text_center.jpg)
 
 <!-- break -->
 
@@ -148,17 +148,17 @@ Like all of Bootstraps classes and components, you can find more info and exampl
 
 ## Button Styling
 
-Next, we'll practice using Bootstrap's CSS again by styling the CTA button in our <header>.
+Next, we'll practice using Bootstrap's CSS again by styling the CTA button in our `<header>`.
 
 > [challenge]
 >
-Using [Bootstrap's documentation on buttons](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags), style the anchor <a> tag in our <header> element as a primary button. You can see the docs by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags)
+Using [Bootstrap's documentation on buttons](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags), style the anchor `<a>` tag in our `<header>` element as a primary button. You can see the docs by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags)
 
 <!-- break -->
 
 > [solution]
 >
-You should have added the following class attributes to your header's anchor <a> tag:
+You should have added the following class attributes to your header's anchor `<a>` tag:
 >
 ```
 <a class="btn btn-primary" href="https://www.sfspca.org/adoptions/cats">Adopt Meow</a>
@@ -166,17 +166,17 @@ You should have added the following class attributes to your header's anchor <a>
 >
 To arrive at the answer above, you should have looked at the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags) and copied the example for styling an anchor tag as as primary button: ![Primary Button Docs](assets/primary_btn_docs.jpg)
 
-To finish up the styling for our button, we'll change the anchor <a> tag's button size from it's default size to `large`.
+To finish up the styling for our button, we'll change the anchor `<a>` tag's button size from it's default size to `large`.
 
 > [challenge]
 >
-Change the size of our <a> tag's button styling from it's default size to large. You can find the documentation for button sizing by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#sizes)
+Change the size of our `<a>` tag's button styling from it's default size to large. You can find the documentation for button sizing by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#sizes)
 
 <!-- break -->
 
 > [solution]
 >
-To give our anchor <a> element the large button size, we can add the following class:
+To give our anchor `<a>` element the large button size, we can add the following class:
 >
 ```
 <a class="btn btn-primary btn-lg" href="https://www.sfspca.org/adoptions/cats">Adopt Meow</a>

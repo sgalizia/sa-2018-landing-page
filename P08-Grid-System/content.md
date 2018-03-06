@@ -11,7 +11,7 @@ In this section, we'll learn to use Bootstrap's grid system to position the cont
 
 # Implementing a Grid
 
-To use the grid, there's some setup that we'll need in our HTML. To start, each grid needs to be wrapped within a <div> with Bootstrap's [container class](http://getbootstrap.com/docs/4.0/layout/overview/#containers).
+To use the grid, there's some setup that we'll need in our HTML. To start, each grid needs to be wrapped within a `<div>` with Bootstrap's [container class](http://getbootstrap.com/docs/4.0/layout/overview/#containers).
 
 The container defines how large the width of our grid will be (the span of the screen that your content can potentially cover.)
 
@@ -25,7 +25,7 @@ If we want to create a container that takes up the full width of the device's sc
 
 ## Creating a Container
 
-Creating a container is easy, we can simply create a new <div> element with the `.container` class. Remember, this is a container element that will "contain" all of our HTML content.
+Creating a container is easy, we can simply create a new `<div>` element with the `.container` class. Remember, this is a container element that will "contain" all of our HTML content.
 
 To create a new Bootstrap `.container`:
 
@@ -35,17 +35,17 @@ To create a new Bootstrap `.container`:
 </div>
 ```
 
-Let's go ahead and implement a Bootstrap container for our <header>.
+Let's go ahead and implement a Bootstrap container for our `<header>`.
 
 > [challenge]
 >
-In `index.html`, create a new Bootstrap container within your <header> element.
+In `index.html`, create a new Bootstrap container within your `<header>` element.
 
 <!-- break -->
 
 > [solution]
 >
-In `index.html`, within your <header> element, modify your code to the following:
+In `index.html`, within your `<header>` element, modify your code to the following:
 >
 ```
 <header class="text-center">
@@ -57,11 +57,11 @@ In `index.html`, within your <header> element, modify your code to the following
 >
 We've added our first container, but this is just the start for implementing a grid.
 >
-You might be wondering why we didn't simply add the `.container` class to our <header> element instead of creating a new <div> element. This is because we want the background image for our <header> to cover the entire width of the browser. Otherwise the _background image_ property we added to our <header> would only cover the span of our container like so:
+You might be wondering why we didn't simply add the `.container` class to our `<header>` element instead of creating a new `<div>` element. This is because we want the background image for our `<header>` to cover the entire width of the browser. Otherwise the _background image_ property we added to our `<header>` would only cover the span of our container like so:
 >
 ![Background Image Truncated](assets/bg-image-truncated.jpg)
 >
-Notice how the background image only spans the content of the `.container` and doesn't cover the entire browser window. This is why we place our `.container` <div> within another parent <header> element.
+Notice how the background image only spans the content of the `.container` and doesn't cover the entire browser window. This is why we place our `.container` `<div>` within another parent `<header>` element.
 
 ## Adding Rows and Columns
 
@@ -99,11 +99,11 @@ As the name implies, each row represents a horizontal row. We can add multiple r
 </div>
 ```
 
-Within each row <div>, we have access to a 12-column grid system.
+Within each row `<div>`, we have access to a 12-column grid system.
 
 ![12 Column Grid](assets/12_col_grid.png)
 
-We'll need to add another <div> element with the number of columns we want each column to take up for each one. In the case above, we want each column to take up a space of 1 column:
+We'll need to add another `<div>` element with the number of columns we want each column to take up for each one. In the case above, we want each column to take up a space of 1 column:
 
 ```
 <div class="container">
@@ -138,7 +138,7 @@ Each individual column can also take up multiple column spaces:
 </div>
 ```
 
-Notice in the both examples, we gave each column <div> a class name of `col-{column-size}`. The column-size defines how many columns the <div> will cover.
+Notice in the both examples, we gave each column `<div>` a class name of `col-{column-size}`. The column-size defines how many columns the `<div>` will cover.
 
 Using this combination of containers, rows and varying width columns, we can begin to position our HTML elements in various layouts without needing to worry about writing too much CSS.
 
@@ -148,7 +148,7 @@ The Bootstrap grid is also smart enough to layout content without explicitly num
 
 ### Equal Width
 
-If we omit the column size to the end of the `col-{column-size}` class and replace it with a `.col` class, Bootstrap will automatically calculate the size of each column by giving each <div> within the row an equal width.
+If we omit the column size to the end of the `col-{column-size}` class and replace it with a `.col` class, Bootstrap will automatically calculate the size of each column by giving each `<div>` within the row an equal width.
 
 > [challenge]
 >
@@ -176,7 +176,7 @@ Because the grid system has 12 columns by default, each column will have an equa
 
 Another useful feature to know about is the ability to set the column width of one column and have Bootstrap auto-layout the column widths for the remaining columns.
 
-To do so, we can simple set a explicit column width for a single column <div> and leave the remaining <div> with the `.col` class. Bootstrap will subtract the explict width and use the remaining width of the grid to determine the size of each column.
+To do so, we can simple set a explicit column width for a single column `<div>` and leave the remaining `<div>` with the `.col` class. Bootstrap will subtract the explict width and use the remaining width of the grid to determine the size of each column.
 
 ![Set One Column Width](assets/set_one_col_width.png)
 
@@ -190,11 +190,11 @@ To do so, we can simple set a explicit column width for a single column <div> an
 </div>
 ```
 
-As you can see above, we set the column width to be explicitly `.col-8` for one of our <div> columns. The other two surround columns are automatically calculated by Bootstrap to fill the remaining grid space. In this case, both outer columns have a column width of 2.
+As you can see above, we set the column width to be explicitly `.col-8` for one of our `<div>` columns. The other two surround columns are automatically calculated by Bootstrap to fill the remaining grid space. In this case, both outer columns have a column width of 2.
 
 ## Refactoring Our Header
 
-To bring all of it together, we're going to finish refactoring the rest of our <header> and it's children elements to utilize the Bootstrap grid system. Refactoring means that we'll keep the functionality the same, while improving the code. Visually nothing will change, but it'll give us some much needed practice with implementing a grid.
+To bring all of it together, we're going to finish refactoring the rest of our `<header>` and it's children elements to utilize the Bootstrap grid system. Refactoring means that we'll keep the functionality the same, while improving the code. Visually nothing will change, but it'll give us some much needed practice with implementing a grid.
 
 > [challenge]
 >
@@ -204,7 +204,7 @@ In `index.html`, use what we learned about grids to modify the existing code to 
 
 > [solution]
 >
-In `index.html`, modify your <header> to the following:
+In `index.html`, modify your `<header>` to the following:
 >
 ```
 <header>
@@ -226,7 +226,7 @@ We modified our code by implementing Bootstrap's grid system. We only used 1 col
 
 > [info]
 >
-You might be thinking, using Bootstrap's grid system requires a lot of extra <div> elements and nesting. That's actually one of the biggest criticisms of the front-end framework. Although it makes it _easier_ to layout our content, it also clutters our HTML with many <div> elements making our HTML harder to read and understand.
+You might be thinking, using Bootstrap's grid system requires a lot of extra `<div>` elements and nesting. That's actually one of the biggest criticisms of the front-end framework. Although it makes it _easier_ to layout our content, it also clutters our HTML with many `<div>` elements making our HTML harder to read and understand.
 
 Before you move on, refresh your landing page in your browser. You should see the following:
 
@@ -254,13 +254,13 @@ Let's start with the boilerplate code for setting up our grid. We'll need to cre
 
 > [challenge]
 >
-In `index.html`, modify the HTML for your first section so that it's placed within a `.container` and `.row` <div> elements.
+In `index.html`, modify the HTML for your first section so that it's placed within a `.container` and `.row` `<div>` elements.
 
 <!-- break -->
 
 > [solution]
 >
-After adding a `.container` and `.row` <div>, the HTML for your first section should look like the following:
+After adding a `.container` and `.row` `<div>`, the HTML for your first section should look like the following:
 >
 ```
 <div class="section first-section">
@@ -278,7 +278,7 @@ With a `.container` and `.row`, we can begin dividing our content into columns.
 
 ## Positioning HTML with Columns
 
-We'll use two columns to divide our content in two `.col-5` <div> elements:
+We'll use two columns to divide our content in two `.col-5` `<div>` elements:
 
 ![First Section Content](assets/first_section_columns.jpg)
 
@@ -316,7 +316,7 @@ If you refresh your landing page, you'll see the following:
 
 ![Image Overflow](assets/img_overflow.jpg)
 
-Eek! Not what we want. Currently the size of the image is too large and expanding out of the bounds of the column that we set. To remedy this, we'll use some prebuilt Bootstrap classes for customizing <img> elements.
+Eek! Not what we want. Currently the size of the image is too large and expanding out of the bounds of the column that we set. To remedy this, we'll use some prebuilt Bootstrap classes for customizing `<img>` elements.
 
 ## Sizing Images
 
@@ -324,13 +324,13 @@ To make sure our image only covers the width of the column, we'll use one of Boo
 
 > [challenge]
 >
-Using the [documentation](https://getbootstrap.com/docs/4.0/content/images/#responsive-images), add the class to your <img> element so that the image only covers the width of it's column.
+Using the [documentation](https://getbootstrap.com/docs/4.0/content/images/#responsive-images), add the class to your `<img>` element so that the image only covers the width of it's column.
 
 Check your solution below!
 
 > [solution]
 >
-We can make our image responsive by simply adding the `img-fluid` class to our <img> element:
+We can make our image responsive by simply adding the `img-fluid` class to our `<img>` element:
 >
 ```
 <img class="img-fluid" src="img/cattitude.jpg" alt="Cat with Attitude">
@@ -338,11 +338,11 @@ We can make our image responsive by simply adding the `img-fluid` class to our <
 >
 ![Image Fluid Class](assets/img_fluid_class.jpg)
 
-Before we move on, let's make our image a little more snazzy by giving it some rounded corners. We could create a new CSS rule in our stylesheet that targets our <img> element, but instead we'll make use of another Bootstrap class.
+Before we move on, let's make our image a little more snazzy by giving it some rounded corners. We could create a new CSS rule in our stylesheet that targets our `<img>` element, but instead we'll make use of another Bootstrap class.
 
 > [action]
 >
-In `index.html`, add the following class to the <img> element in your first section:
+In `index.html`, add the following class to the `<img>` element in your first section:
 >
 ```
 <img class="rounded img-fluid" src="img/cattitude.jpg" alt="Cat with Attitude">
@@ -479,7 +479,7 @@ In `index.html`, give the columns of our first section a horizontal alignment of
 
 > [solution]
 >
-You should have added the `.justify-content-around` class to the `.row` <div>:
+You should have added the `.justify-content-around` class to the `.row` `<div>`:
 >
 ```
 <div class="row justify-content-around">
@@ -501,7 +501,7 @@ Notice how both columns have equal spacing around each column. Looking a lot bet
 
 ## Vertical Alignment
 
-If you look at the current landing page, you'll notice that our cat <img> element isn't vertically aligned with the text content on the right side of the first section. 
+If you look at the current landing page, you'll notice that our cat `<img>` element isn't vertically aligned with the text content on the right side of the first section. 
 
 ![Not Vertically Aligned](assets/not_vert_aligned.jpg)
 
@@ -581,7 +581,7 @@ In `index.html`, give the columns of our first section a vertical alignment of `
 
 > [solution]
 >
-You should have added the `.align-items-center` class to the `.row` <div>:
+You should have added the `.align-items-center` class to the `.row` `<div>`:
 >
 ```
 <div class="row justify-content-around align-items-center">
@@ -723,7 +723,7 @@ In `style.css`, add a media query that adds a bottom margin depending on the scr
 }
 ```
 >
-With the CSS above, a bottom margin of 35px will be applied whenever the screen width is less than 768px. Once the screen is 768px and above, the <img> element will have a bottom margin of 20px. And finally, if the screen size is above 992px, then the bottom margin of the <img> will be set to 0.
+With the CSS above, a bottom margin of 35px will be applied whenever the screen width is less than 768px. Once the screen is 768px and above, the `<img>` element will have a bottom margin of 20px. And finally, if the screen size is above 992px, then the bottom margin of the `<img>` will be set to 0.
 
 If you refresh your landing page, you'll notice that when the browser width is less than 768px, it now has a bottom margin to help separate the image with the following text below.
 
@@ -733,7 +733,7 @@ Let's try another.
 
 > [challenge]
 >
-Add a media query that changes the <h1> element's property of `font-size` to `48px` if the screen width is above 576px. In your stylesheet, you should already have a CSS rule that adds the following declarations to the <h1> element:
+Add a media query that changes the `<h1>` element's property of `font-size` to `48px` if the screen width is above 576px. In your stylesheet, you should already have a CSS rule that adds the following declarations to the `<h1>` element:
 >
 ```
 h1 {
@@ -826,9 +826,9 @@ Let's start with the basics, creating a new section and setting up the grid.
 >
 In `index.html`, let's begin implementing the second section of our landing page:
 >
-1. Create a new outer <div> element with the `.section` and `.second-section` classes.
+1. Create a new outer `<div>` element with the `.section` and `.second-section` classes.
 1. In your stylesheet, create a new CSS rule that sets the background color of `.second-section` to `#FBFBFB`.
-1. Within your `.second-section` <div> element, create a new <div> element with the class `.container`.
+1. Within your `.second-section` `<div>` element, create a new `<div>` element with the class `.container`.
 
 <!-- break -->
 
@@ -885,7 +885,7 @@ With the following setup, we can implement the HTML content for the heading and 
 >
 Add the HTML content for the heading and subheading of the second section:
 >
-1. Add a <h2> element with the content: `Meats, Not Sweets`
+1. Add a `<h2>` element with the content: `Meats, Not Sweets`
 1. Add a paragraph element with the content: `Did you know cats can't taste sweetness? Here are some treats they can't taste:`
 
 When you're done, make sure your solution matches below.

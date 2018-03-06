@@ -9,7 +9,7 @@ Before our landing page can really start coming together, we'll need to learn a 
 
 So far, we've learned about class, id and element selectors and how to use them to target HTML elements respectively. Next, we'll cover another common selector that will allow us to target specific HTML elements within a container element.
 
-The **descendant selector** allows us to target HTML elements that are a child element (hence the name descendant) of a parent element. This usually occurs within container elements such as <div>, <header>, etc.
+The **descendant selector** allows us to target HTML elements that are a child element (hence the name descendant) of a parent element. This usually occurs within container elements such as `<div>`, `<header>`, etc.
 
 The structure for the descendant selector is as follows:
 
@@ -19,7 +19,7 @@ parent-selector descendant-selector {
 }
 ```
 
-Notice the parent selector and the descendant selector are separated by a space ` `. For example, perhaps we want to make all <p> elements in our <header> have a font color of `blue`. We could write the following:
+Notice the parent selector and the descendant selector are separated by a space ` `. For example, perhaps we want to make all `<p>` elements in our `<header>` have a font color of `blue`. We could write the following:
 
 ```
 header p {
@@ -28,7 +28,7 @@ header p {
 }
 ```
 
-In our example above, <header> is the container element and our descendant selector targets all <p> elements within <header>.
+In our example above, `<header>` is the container element and our descendant selector targets all `<p>` elements within `<header>`.
 
 The parent selector can also be a class selector. For example, take the following HTML:
 
@@ -39,7 +39,7 @@ The parent selector can also be a class selector. For example, take the followin
 </div>
 ```
 
-If we wanted to select the <img> element, we could use the following selector:
+If we wanted to select the `<img>` element, we could use the following selector:
 
 ```
 .example-div img {
@@ -47,7 +47,7 @@ If we wanted to select the <img> element, we could use the following selector:
 }
 ```
 
-Notice how we use the `.example-div` class to select the <div> container, before adding the <img> descendant selector.
+Notice how we use the `.example-div` class to select the `<div>` container, before adding the `<img>` descendant selector.
 
 Using descendant selectors can be especially useful for applying CSS rules to a subgroup of children elements. Let's put this into action.
 
@@ -76,7 +76,7 @@ Modify the existing CSS rule above to target only unordered list and list items 
 
 > [solution]
 >
-You can modify the existing CSS rule to use the `.first-section` class to target all <ul> and <li> elements within the `.first-section` container element:
+You can modify the existing CSS rule to use the `.first-section` class to target all `<ul>` and `<li>` elements within the `.first-section` container element:
 >
 ```
 .first-section ul {
@@ -209,7 +209,7 @@ Another property of CSS is referred to as CSS inheritance. Inheritance refers to
 
 > [info]
 >
-An element's children refers to the elements that are contained within another container element, such as the <div>, <header> or even <body> tags.
+An element's children refers to the elements that are contained within another container element, such as the `<div>`, `<header>` or even `<body>` tags.
 
 CSS inheritance allows us to set the property of a container element and have that property trickle down to be applied to each child element. This prevents us having to redefine the same declaration, over and over again for multiple child elements.
 
@@ -233,9 +233,9 @@ body {
 }
 ```
 
-Refresh your landing page and you'll notice that our <p> text is now all red. But why aren't our section headings red? You got it–CSS specificity. For both our <h1> and <h2> element, there's a more specific rule applying the `color` property that has a higher specificity value.
+Refresh your landing page and you'll notice that our `<p>` text is now all red. But why aren't our section headings red? You got it–CSS specificity. For both our `<h1>` and `<h2>` element, there's a more specific rule applying the `color` property that has a higher specificity value.
 
-But for our final designs, we don't actually want our <p> text color to be `red`. We only used `red` to make the effects of CSS inheritance obvious. Applying a color of `red` to our `body` selector applied the `red` color to all of our text that didn't have a more specific CSS rule. This can be useful for implementing default properties for groups of HTML elements.
+But for our final designs, we don't actually want our `<p>` text color to be `red`. We only used `red` to make the effects of CSS inheritance obvious. Applying a color of `red` to our `body` selector applied the `red` color to all of our text that didn't have a more specific CSS rule. This can be useful for implementing default properties for groups of HTML elements.
 
 Let's modify the default color value to it's intended value.
 
