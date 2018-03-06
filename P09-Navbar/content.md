@@ -202,7 +202,7 @@ Refresh your landing page and you should see the following:
 
 ![Navbar Links Right](assets/navbar_link_left.png)
 
-Nice! Getting closer.
+Nice! Getting warmer.
 
 # Setting our Links
 
@@ -281,11 +281,9 @@ Let's add a logo to our navbar. To review our design, our finished navbar will l
 
 First we'll need to download our cat logo.
 
-<!-- TODO: insert link for downloading cat image -->
-
 > [action]
 >
-Download our cat logo by [clicking here.](insert-link)
+Download our cat logo by [clicking here.](https://www.dropbox.com/s/iphv0ossqgphrv8/ic_cat.png?dl=1) Move the logo asset to your project's `img` folder.
 
 To implement our logo in our navbar, we can reference the [documentation](https://getbootstrap.com/docs/4.0/components/navbar/#brand) on how to add brand images to the navbar. If you scroll down to the example code of the navbar with both a logo and brand name, you can use the code snippet to implement our design.
 
@@ -303,7 +301,7 @@ You will have modified your navbar's HTML to the following:
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="./img/ic_cat.png" alt="cat logo">
+      <img src="img/ic_cat.png" alt="cat logo">
       Cat
     </a>
     
@@ -312,7 +310,7 @@ You will have modified your navbar's HTML to the following:
 </nav>
 ```
 >
-You'll notice that the code snippet inclues some extra CSS classes that we won't need to apply to our own logo `<img>` element.
+You'll notice that the code snippet includes some extra CSS classes that we won't need to apply to our own logo `<img>` element.
 
 Before we continue, we'll need to add some additional CSS styling to configure our `<img>` element properly.
 
@@ -371,4 +369,4 @@ Throughout the process, we heavily relied on Bootstrap's documentation to implem
 
 In the next section, we'll put all of the skills and knowledge to practice by implementing a couple more sections for our landing page. 
 
-Get ready! This time you'll be doing the majority of the work!
+Get ready–this time you'll be doing the majority of the work!

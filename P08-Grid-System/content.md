@@ -681,7 +681,7 @@ We can assign different size classes by using the different column prefixes:
 </div>
 ```
 
-Now if we refresh our landing page and resize our browser, you'll notice that our content adjust itself automatically depending on the width of the browser. In addition, our layout is no longer hard to read on mobile devices!
+Now if we refresh our landing page and resize our browser, you'll notice that our content adjusts itself automatically depending on the width of the browser. In addition, our layout is no longer hard to read on mobile devices!
 
 ![Responsive Columns](assets/responsive_columns.jpg)
 
@@ -988,11 +988,9 @@ Here's the design we'll be following:
 
 Let's start by downloading our treat images and placing them in our `img` folder.
 
-TODO: add image links
-
 > [action]
 >
-Download the images by clicking here and move them into your `img` folder.
+Download the treat icon assets by [clicking here.](https://www.dropbox.com/s/3j40crttal2z4vo/treat_icons.zip?dl=1) Don't forget to move the icons to the `img` folder of your project.
 
 <!-- break -->
 
@@ -1021,22 +1019,22 @@ In `index.html`, you should have implemented the following HTML and CSS for the 
 >
 <div class="row text-center">
   <div class="col-12 col-sm-6 col-lg-3">
-    <img src="./images/ic_donut.png" alt="donut">
+    <img src="img/ic_donut.png" alt="donut">
     <h3>Donuts</h3>
     <p>A small fried cake of sweetened dough, usually in the shape of a ring.</p>
   </div>
   <div class="col-12 col-sm-6 col-lg-3">
-    <img src="./images/ic_candy.png" alt="candy">
+    <img src="img/ic_candy.png" alt="candy">
     <h3>Candy</h3>
     <p>A sweet food that features sugar as the primary ingredient.</p>
   </div>
   <div class="col-12 col-sm-6 col-lg-3">
-    <img src="./images/ic_cake.png" alt="cake">
+    <img src="img/ic_cake.png" alt="cake">
     <h3>Cake</h3>
     <p>A carefully calculated motivational device that may or may not exist.</p>
   </div>
   <div class="col-12 col-sm-6 col-lg-3">
-    <img src="./images/ic_popsicle.png" alt="popsicle">
+    <img src="img/ic_popsicle.png" alt="popsicle">
     <h3>Popsicles</h3>
     <p>A piece of flavored ice or ice cream on a stick.</p>
   </div>

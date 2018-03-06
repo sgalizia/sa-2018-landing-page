@@ -3,7 +3,7 @@ title: "CSS Inheritance and Specificity"
 slug: css-inheritance-and-specificity
 ---
 
-Before our landing page can really start coming together, we'll need to learn a little more about CSS. In this section, we'll be adding CSS specificity, the _descendant selector** and CSS inheritance into our arsenel.
+Before our landing page can really start coming together, we'll need to learn a little more about CSS. In this section, we'll be adding CSS specificity, the _descendant selector_ and CSS inheritance into our arsenel.
 
 # The Descendant Selector
 
@@ -60,13 +60,13 @@ ul {
   margin-top: 25px;
   padding: 30px 55px;
 }
-
+>
 li {
   margin-bottom: 8px;
 }
 ```
 
-We don't want these declarations to be applied to all unordered list and list item elements, just the element within our first section. We can use a descendant selector to implement our desired behavior.
+We don't want these declarations to be applied to all unordered list and list item elements, just the elements within our first section. We can use descendant selectors to implement our desired behavior.
 
 > [challenge]
 >
@@ -127,7 +127,7 @@ To figure this out, we'll need to learn about how the browser calculates CSS spe
 
 CSS applies different weights to different selectors. Each weight is a magnitude higher than the other.
 
-[CSS Specificity Magnitudes](assets/css_specificity_magnitudes.png)
+![CSS Specificity Magnitudes](assets/css_specificity_magnitudes.png)
 
 > [info]
 >
@@ -197,7 +197,7 @@ The specificity value for `.outer p` would be 0,0,1,1 where the specificity valu
 
 > [info]
 >
-It's also possible to override specificity score by adding an `!important` after the value of a CSS declaration. However, generally this is considered bad practice as you're no longer using CSS specificity making your stylesheet less maintainable.
+It's also possible to override specificity score by adding an `!important` after the value of a CSS declaration. However, generally this is considered bad practice as you're no longer using CSS specificity, which makes your stylesheet less maintainable.
 
 CSS specificity will be important to keep in mind as your stylesheets start getting bigger and bigger. When multiple rules apply to the same HTML element, you'll be able to understand which rule takes precedence.
 

@@ -9,9 +9,7 @@ To begin, let's download the remaining image assets needed for our landing page.
 
 > [action]
 >
-Download the remaining image assets for our landing page by [clicking here.](insert-link-here) Make sure to move the image assets to your project's `img` folder.
-
-<!-- TODO: insert link here -->
+Download the remaining image assets for our landing page by [clicking here.](https://www.dropbox.com/s/ybq7ej0x9omoq1w/remaining_assets.zip?dl=1) Make sure to move the image assets to your project's `img` folder.
 
 With our new image assets, we're ready to begin building the rest of our landing page.
 
@@ -64,7 +62,7 @@ HTML:
       </div>
 >
       <div class="col-12 col-md-5">
-        <img class="rounded img-fluid" src="./images/curiousity_killed_the.jpg" alt="">
+        <img class="rounded img-fluid" src="img/curiousity_killed_the.jpg" alt="">
       </div>
     </div>
   </div>
@@ -147,7 +145,7 @@ CSS:
 ```
 .fourth-section {
   background-color: #F0F8FF;
-  background-image: url("../images/cattern.png");
+  background-image: url("../img/cattern.png");
   background-repeat: repeat;
   background-size: 192px 192px;
 }
@@ -192,7 +190,7 @@ HTML:
 >
 ```
 <footer class="text-center">
-  <small>Made with <span><img class="footer-logo" src="images/ms_logo_small.png" alt=""></span> in San Francisco.</small>
+  <small>Made with <span><img class="footer-logo" src="img/ms_logo_small.png" alt=""></span> in San Francisco.</small>
 </footer>
 ```
 >

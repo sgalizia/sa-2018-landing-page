@@ -3,7 +3,7 @@ title: "CSS Properties"
 slug: css-properties
 ---
 
-We've covered a few CSS properties now. In this section, we'll start to dive more in-depth on common CSS properties that you'll use to style HTML.
+We've covered a few CSS properties now. In this section, we'll start to look more in-depth at common CSS properties that you'll use to style your HTML elements.
 
 We'll cover the following properties and their values:
 
@@ -93,7 +93,7 @@ a {
 
 In our browser:
 
-[Font Size Property](assets/font_size_property.png)
+![Font Size Property](assets/font_size_property.png)
 
 For our practice, let's change the font size of our `<h1>` section heading and `<p>` element.
 
@@ -193,6 +193,7 @@ Let's look at the syntax:
 h1 {
   height: 300px;
   color: white;
+  border: 1px solid black;
   background-image: url("../img/rainbow_bg.jpg");
 }
 ```
@@ -262,7 +263,7 @@ If we want to add a margin or padding for a specific edge we can use the followi
 
 > [info]
 >
-It's also important to note that the both margin and padding are transparent, or clear.
+It's also important to note that the both margin and padding are transparent.
 
 By using `margin` and `padding`, we can position each of our HTML elements relative to each other.
 

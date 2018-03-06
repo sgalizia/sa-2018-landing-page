@@ -7,7 +7,7 @@ Up to this point, all of the HTML elements we've added are contained within the 
 
 But why would we want to group our HTML content into _containers_?
 
-Grouping our HTML content in containers makes it easier for us to target our elements with class and id selectors. This, in turn, makes it easier for us to position and style via CSS.
+Grouping our HTML content in containers makes it easier for us to target our elements with class and id selectors. This, in turn, makes it easier for us to position and style HTML via CSS.
 
 Let's look at our bread and butter for grouping HTML content: the `<div>` tag.
 
@@ -184,9 +184,7 @@ To set our background image, there's a multitude of declarations we'll need to s
 
 > [action]
 >
-Download our header's background image by [clicking here.](insert link) After the download completes, move the image asset into the `img` folder of our project.
-
-<!-- TODO: add download link for background image -->
+Download our header's background image by [clicking here.](https://www.dropbox.com/s/2278f4u5rkbhoy3/jumping_cats.jpg?dl=1) After the download completes, move the image asset into the `img` folder of our project.
 
 Next, we'll need to add some CSS to set our background image for our `<header>`.
 
@@ -198,7 +196,7 @@ In our stylesheet, add the additional declarations to our header selector:
 header {
   // ...
 >
-  background-image: url("../images/jumping_cats.jpg");
+  background-image: url("../img/jumping_cats.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -241,7 +239,7 @@ Your `<div>` should now have the following class:
 
 > [info]
 >
-To target `<div>` elements, you can use class or id selectors. In most cases, it's better to use class selectors because they encourage the mindset of building re-usable CSS throughout your stylesheets. If you're interested reading more in-depth on the topic, check out [this article.](http://oli.jp/2011/ids/)
+To target `<div>` elements, you can use class or id selectors. In most cases, it's better to use class selectors because they encourage the mindset of building re-usable CSS throughout your stylesheets. If you're interested reading more in-depth on the topic, check out this [article.](http://oli.jp/2011/ids/)
 
 Next, let's give our first section a background color.
 

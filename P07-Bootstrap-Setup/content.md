@@ -69,11 +69,11 @@ In `index.html`, modify your `<head>` element to the following:
 ```
 >
 1. We add a new responsive view meta tag to our `<head>` so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile.) We'll learn more about responsiveness, what it is and how to use it later on.
-2. We add a link to a CSS stylesheet of the Bootstrap CSS
+2. We add a link to a CSS stylesheet of the Bootstrap CSS.
 
 > [info]
 >
-It's important that the link to the Bootstrap CSS stylesheet is placed **above** (or before) the link to our project's individual `style.css` stylesheet. This is because if CSS rules across multiple stylesheets have the same CSS specificity, then the CSS rule that is written latest (in order) will be applied.
+It's important that the link to the Bootstrap CSS stylesheet is placed **above** the link to our project's individual `style.css` stylesheet. This is because if CSS rules across multiple stylesheets have the same CSS specificity, then the CSS rule that is written latest (in order) will be applied.
 
 Next, we'll need to add some JavaScript to ensure that various Bootstrap components function properly.
 
@@ -131,9 +131,9 @@ When you're done, check your solution below.
 You can add a class attribute to an HTML element like so:
 >
 ```
-  <header class="text-center">
-    <!-- ... previous <header> content -->
-  </header>
+<header class="text-center">
+  <!-- ... previous <header> content -->
+</header>
 ```
 >
 Because `text-alignment` is a property that is inherited by child elements, we'll add this to our parent `<header>` element instead of adding it to each respective `<h1>`, `<p>` and `<a>` element individually. This saves us from cluttering our HTML code with extra class attributes.
