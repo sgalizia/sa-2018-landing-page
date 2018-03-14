@@ -5,6 +5,8 @@ slug: dev-environment
 
 Before we start building, we'll need to start by setting up our developer environment.
 
+<!-- TODO: maybe review this definition -->
+
 > [info]
 >
 A _developer (dev) environment_ refers to the tools and initial setup a developer needs to start coding whatever they're building.
@@ -61,7 +63,7 @@ Next, let's save our new _untitled_ file in the right place.
 > [action]
 Before saving, make sure you read and follow all the steps below:
 >
-1. Save the _untitled_ file by pressing the shortcut `CMD-S` or selecting the _Save_ command in the _File menu_. ![Save File](assets/save_file.jpg)
+1. Save the _untitled_ file by pressing the shortcut `CMD-s` or selecting the _Save_ command in the _File menu_. ![Save File](assets/save_file.jpg)
 1. In the prompt, save with the file name `index.html`. It's important to include the extension `.html`. ![Save File Name](assets/save_file_name.jpg)
 1. Find a easy-to-find file path (i.e. `~/Code/html/`) on your computer to save all the files for your soon-to-be landing page. Make sure you create a new folder called `cats_landing_page` to contain any additional files that we add later. ![Landing Page File Path](assets/file_path.jpg)
 1. Click the `Save` button to finish creating your new `index.html` file. ![Click Save](assets/click_save.jpg)
