@@ -3,9 +3,29 @@ title: "Introduction"
 slug: intro-landing-page
 ---
 
-This is the second tutorial of Make School's full-stack web series! In this tutorial, we'll learn about core concepts in front-end web development by building your first landing page!
+Welcome to the first tutorial of Make School's full-stack web series! As you progress through each of the tutorials, your powers and coding wizardry will become increasingly stronger. Soon enough, you've be able to build websites, make games and maybe even create the next billion-dollar startup (if that's your thing.)
+
+This first tutorial is a call to adventure – the start of your journey into the magical world of building full-stack web apps. 
+
+But first, like every great witch or wizard, you'll need to begin with the basics: learning about **how to build a web page**.
+
+Feeling nervious? Excited? Me too. 
+
+But don't worry, we'll go through this journey together.
+
+When you're ready, strap a seat belt on your brain–you're going to need it!
 
 # What's a Landing Page?
+
+At Make School, one of our core beliefs is to learn by doing. 
+
+Like Tai Lopez, we're all about that _knowledge_. But we believe that humans learn best through action – that means doing, making, building.
+
+These tutorials are designed to be *interactive*. You'll get to see _knowledge_ in action as we learn to build a couple different apps, games and products. When it's all through, our hope is that you'll take your newfound _knowledge_ and use it to create cool things to share with the world.
+
+In this upcoming tutorial, you'll learn about building web pages by building your very own landing page. 
+
+So what exactly is a landing page?
 
 A _landing page_ is a web page that a new user "lands" on, usually when they first discover your product or service.
 
@@ -66,10 +86,9 @@ By the end of this tutorial, you will:
 - implement Bootstrap components and classes
 - properly structure HTML to re-create designs and wireframes
 
+
 # If You Get Stuck
 
-Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk.) Make sure you've followed each step of the tutorial. It's easy to make typos or accidentally skip over important steps.
+"Sometimes, magic is just someone spending more time on something than anyone else might reasonably expect." - Teller (Penn & Teller)
 
-If you want to compare your code to the solution, you can find it here:
-
-<!-- TODO: insert link to github repo -->
+Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk.) Make sure you've follow each step of the tutorial. It's easy to make typos or to accidentally skip over important steps.

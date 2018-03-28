@@ -1,5 +1,5 @@
 ---
-title: "conclusion"
+title: "Conclusion"
 slug: conclusion
 ---
 
