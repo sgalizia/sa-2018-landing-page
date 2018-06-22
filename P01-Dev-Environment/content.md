@@ -19,15 +19,11 @@ The two tools we'll need to have installed are [_Google Chrome_](https://www.goo
 
 You're probably familiar with the web browser. In fact, right now, you're viewing this tutorial through a web browser.
 
-![Web Browser Example](assets/web_browser_example.png)
-
 A browser allows you to view websites on the internet, but it'll also allow us to view, test and interact with the code we're going to write.
 
 ## Why Chrome?
 
 Google Chrome is a popular choice for many web developers. Not only is it available on every major platform, it also has a whoppin' 58.9% market share. That means roughly 60% of users will visit your website through a Chrome browser, with Firefox trailing in second place at 13.3%.
-
-![Browser Market Share](assets/browser_market_share.png)
 
 You might not know this, but each different web browser (Chrome, Firefox, Safari) will display the code of a website a little differently. We want to use Chrome as we test and develop because it'll allow us to make sure the wide majority (holy 60%!) have a good user experience.
 
