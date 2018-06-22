@@ -70,11 +70,7 @@ For reference, you can find the documentation [here](https://support.google.com/
 
 After successfully downloading Google Chrome, open it. 
 
-You should see the 'New Tab' that looks like the following:
-
-![Chrome New Tab](assets/chrome_new_tab.png)
-
-With Chrome installed, let's quickly install [_Atom_](https://atom.io) so we can get started building.
+You should see the 'New Tab'. With Chrome installed, let's quickly install [_Atom_](https://atom.io) so we can get started building.
 
 # About Atom
 
