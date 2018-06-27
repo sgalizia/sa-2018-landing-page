@@ -37,7 +37,7 @@ Another reason many developers prefer Chrome is because of _Chrome Developer Too
 ## Downloading Chrome
 
 > [info]
-If you've already installed Chrome on your computer, make sure it's updated to the latest version before continuing onto the next section, _How The Internet Works_.
+If you've already installed Chrome on your computer, make sure it's updated to the latest version before continuing onto the next section.
 
 To download Google Chrome, find your operating system and follow the corresponding set of instructions below:
 
