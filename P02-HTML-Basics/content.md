@@ -55,20 +55,27 @@ Let's finish our "Hello, World" task and then we'll rewind to review the boilerp
 
 ## Our First HTML Element
 
-Firsts are special. To get our web page to display "Hello, World!", we'll need to write our first HTML element (if you don't know what that is, we'll cover it in detail next!)
+Firsts are special! To get our web page to display "Hello, World!", we'll need to write our first HTML element (if you don't know what that is, don't worry, we will cover it in detail shortly!)
 
 > [action]
 >
-Inside the two body tags, of the HTML boilerplate, add the following line of code:
+Inside the opening and closing body tags, add the following line of code:
 >
+`<h1>Hello, World!</h1>`
+>
+
+Your HTML file should now look like this:
 ```
-...
-
-<body>
-  <h1>Hello, World!</h1>
-</body>
-
-...
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
 ```
 
 That's it! Easy like cake. 
