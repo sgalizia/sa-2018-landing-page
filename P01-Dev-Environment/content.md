@@ -13,7 +13,7 @@ A _developer (dev) environment_ refers to the tools and initial setup a develope
 
 For us, we'll keep things simple and only focus on the tools we'll immediately need to start writing front-end code for our landing page.
 
-The two tools we'll need to have installed are [_Google Chrome_](https://www.google.com/chrome/) and the [_Atom_](https://atom.io) text editor. 
+The two tools we'll need to have installed are [_Google Chrome_](https://www.google.com/chrome/) and the [_Atom_](https://atom.io) text editor.
 
 # Installing Google Chrome
 
@@ -28,7 +28,7 @@ Google Chrome is a popular choice for many web developers. Not only is it availa
 You might not know this, but each different web browser (Chrome, Firefox, Safari) will display the code of a website a little differently. We want to use Chrome as we test and develop because it'll allow us to make sure the wide majority (holy 60%!) have a good user experience.
 
 > [info]
-What is does *user experience* mean?
+What does *user experience* mean?
 >
 In product development, the term user experience, or UX, is used to describe how a user feels after interacting with a product or service. When you start building, try to keep your users in mind and think about how they'll feel when using your web apps.
 
@@ -44,7 +44,7 @@ To download Google Chrome, find your operating system and follow the correspondi
 ### Install Chrome on Windows
 1. Download the [installation file.](https://www.google.com/chrome/)
 1. If prompted, click *Run* or *Save*.
-1. If you chose *Save*, double-click the download to start installing. 
+1. If you chose *Save*, double-click the download to start installing.
 1. Start Chrome:
   - *Windows 7:* A Chrome window opens once everything is done.
   - *Windows 8 and 8.1:* A welcome dialogue appears. Click Next to select your default browser.
@@ -68,7 +68,7 @@ To download Google Chrome, find your operating system and follow the correspondi
 
 For reference, you can find the documentation [here](https://support.google.com/chrome/answer/95346).
 
-After successfully downloading Google Chrome, open it. 
+After successfully downloading Google Chrome, open it.
 
 You should see the 'New Tab'. With Chrome installed, let's quickly install [_Atom_](https://atom.io) so we can get started building.
 
@@ -78,7 +78,7 @@ Atom is a popular, open-source text editor that was created by [Github](https://
 
 ![Atom Text Editor](assets/atom_editor.jpg)
 
-Atom is an excellent text editor for beginners and experts alike because of it's design and ease of use. This allows developers to spend more time on coding instead of configuring their text editor.
+Atom is an excellent text editor for beginners and experts alike because of its design and ease of use. This allows developers to spend more time on coding instead of configuring their text editor.
 
 > [info]
 >
@@ -100,7 +100,7 @@ Install Atom by doing the following:
 
 ## Setting up a Workspace
 
-Before getting started with Atom, we should set up a space to store all of our code for this project and future projects. 
+Before getting started with Atom, we should set up a space to store all of our code for this project and future projects.
 
 You might hear this referred to as a workspace. A workspace is simply a directory to store all of your projects in one place.
 
@@ -122,7 +122,7 @@ Open the Atom text editor. You should see the following:
 >
 ![New Untitled](assets/new_untitled.jpg)
 >
-Depending on your UI/Syntax theme and the packages you have installed, you editor may look differently.
+Depending on your UI/Syntax theme and the packages you have installed, your editor may look differently.
 
 Next, let's save our new _untitled_ file in the right place.
 
@@ -131,7 +131,7 @@ Before saving, make sure you read and follow all the steps below:
 >
 1. Save the _untitled_ file by pressing the shortcut `CMD-S` or selecting the _Save_ command in the _File menu_. ![Save File](assets/save_file.jpg)
 1. In the prompt, save with the file name `index.html`. It's important to include the extension `.html`. ![Save File Name](assets/save_file_name.jpg)
-1. Navigate to your workspace you set up int he previous section (i.e. `~/Code/`) on your computer to save all the files for your soon-to-be landing page. Make sure you create a new folder called `cats_landing_page` to contain any additional files that we add later. ![Landing Page File Path](assets/file_path.jpg)
+1. Navigate to your workspace you set up in the previous section (i.e. `~/Code/`) on your computer to save all the files for your soon-to-be landing page. Make sure you create a new folder called `cats_landing_page` to contain any additional files that we add later. ![Landing Page File Path](assets/file_path.jpg)
 1. Click the `Save` button to finish creating your new `index.html` file. ![Click Save](assets/click_save.jpg)
 
 With _Atom_ installed and our new `index.html` file created, let's begin learning about HTML and how to build the content for our landing page.
