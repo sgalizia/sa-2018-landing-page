@@ -236,7 +236,7 @@ Before you move on, refresh your landing page in your browser. You should see th
 
 Adding a grid system to our landing page header was relatively easy. That's because our layout was pretty straightforward–we just had to center all of the HTML content horizontally.
 
-Next, we'll move onto a more complicated layout that requires 2 columns instead of just 1. In addition, our layout will even changes depending on the width of the screen. 
+Next, we'll move onto a more complicated layout that requires 2 columns instead of just 1. In addition, our layout will even changes depending on the width of the screen.
 
 Let's review the design of our first section:
 
@@ -501,7 +501,7 @@ Notice how both columns have equal spacing around each column. Looking a lot bet
 
 ## Vertical Alignment
 
-If you look at the current landing page, you'll notice that our cat `<img>` element isn't vertically aligned with the text content on the right side of the first section. 
+If you look at the current landing page, you'll notice that our cat `<img>` element isn't vertically aligned with the text content on the right side of the first section.
 
 ![Not Vertically Aligned](assets/not_vert_aligned.jpg)
 
@@ -531,6 +531,7 @@ The 3 different ways you can align your content within a row are as follows:
   </div>
 </div>
 ```
+
 ### align-items-center
 
 `.align-items-start` aligns your columns vertically towards the center of your row.
@@ -603,7 +604,7 @@ We've given the columns both vertical and horizontal alignment!
 
 # Responsiveness
 
-Up to this point, we've only addressed content for browsers with width of >1170px. But what happens if someone is viewing our landing page on thier phone? Or what if their browser is positioned so that the browser width is small?
+Up to this point, we've only addressed content for browsers with width of >1170px. But what happens if someone is viewing our landing page on their phone? Or what if their browser is positioned so that the browser width is small?
 
 For our current website, our layout would break and be practically unreadable:
 
@@ -673,7 +674,7 @@ We can assign different size classes by using the different column prefixes:
     <div class="col-12 col-lg-5">
       <!-- ... existing HTML content -->
     </div>
-
+>
     <div class="col-12 col-lg-5">
       <!-- ... existing HTML content -->
     </div>

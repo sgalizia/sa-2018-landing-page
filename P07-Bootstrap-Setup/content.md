@@ -19,7 +19,7 @@ If you're interested in checking out more examples of popular HTML layouts buit 
 
 But what does this mean for us?
 
-Instead of needing to write a bunch of the same HTML, CSS and JavaScript each time we create a new project, we can utilize _Bootstrap_ to do a lot work for us. In this tutorial, we'll learn about the following: _Bootstrap's_ CSS, pre-built components and it's grid system.
+Instead of needing to write a bunch of the same HTML, CSS and JavaScript each time we create a new project, we can utilize _Bootstrap_ to do a lot work for us. In this tutorial, we'll learn about the following: _Bootstrap's_ CSS, pre-built components and its grid system.
 
 ### Bootstrap CSS
 
@@ -41,7 +41,7 @@ To implement a component, you can look through the [Bootstrap documentation](htt
 
 ### Grid System
 
-One of the most defining features of _Bootstrap_ is it's grid system. Bootstrap's grid system allows you to easily position and layout HTML content using a 12 column grid.
+One of the most defining features of _Bootstrap_ is its grid system. Bootstrap's grid system allows you to easily position and layout HTML content using a 12 column grid.
 
 ![Grid System](assets/grid_system.jpg)
 
@@ -168,11 +168,11 @@ You should have added the following class attributes to your header's anchor `<a
 >
 To arrive at the answer above, you should have looked at the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/buttons/#button-tags) and copied the example for styling an anchor tag as as primary button: ![Primary Button Docs](assets/primary_btn_docs.jpg)
 
-To finish up the styling for our button, we'll change the anchor `<a>` tag's button size from it's default size to `large`.
+To finish up the styling for our button, we'll change the anchor `<a>` tag's button size from its default size to `large`.
 
 > [challenge]
 >
-Change the size of our `<a>` tag's button styling from it's default size to large. You can find the documentation for button sizing by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#sizes)
+Change the size of our `<a>` tag's button styling from its default size to large. You can find the documentation for button sizing by [clicking here.](https://getbootstrap.com/docs/4.0/components/buttons/#sizes)
 
 <!-- break -->
 
