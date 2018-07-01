@@ -138,7 +138,7 @@ Currently, our navbar takes up the full width of the screen. We want to change t
 
 > [challenge]
 >
-Using the documentation, implement the navbar so that it's content is contained within a Bootstrap `.container` class. When you're done, your landing page should look like the following: 
+Using the documentation, implement the navbar so that it's content is contained within a Bootstrap `.container` class. When you're done, your landing page should look like the following:
 >
 ![Navbar Container](assets/navbar_container.png)
 
@@ -304,7 +304,7 @@ You will have modified your navbar's HTML to the following:
       <img src="img/ic_cat.png" alt="cat logo">
       Cat
     </a>
-    
+>
     <!-- ... existing HTML content -->
   </div>
 </nav>
@@ -316,7 +316,7 @@ Before we continue, we'll need to add some additional CSS styling to configure o
 
 > [challenge]
 >
-Add a CSS rule to set the logo `<img>` element to set the height and width to 46px and a right margin of 8px. 
+Add a CSS rule to set the logo `<img>` element to set the height and width to 46px and a right margin of 8px.
 
 <!-- break -->
 
@@ -348,7 +348,7 @@ Using the [Boostrap documentation](https://getbootstrap.com/docs/4.0/components/
 
 > [solution]
 >
-To specify the sticky top behavior, all we have to do is add the `.sticky-top` class to our <nav> element:
+To specify the sticky top behavior, all we have to do is add the `.sticky-top` class to our `<nav>` element:
 >
 ```
 <!-- add sticky-top class to <nav> element below -->
@@ -363,10 +363,10 @@ Now, refresh your landing page and start scrolling up and down. Notice that your
 
 # Up Next
 
-In this section, we learned about navbars. We learned how to implement and customize Bootstrap's navbar component. 
+In this section, we learned about navbars. We learned how to implement and customize Bootstrap's navbar component.
 
 Throughout the process, we heavily relied on Bootstrap's documentation to implement the Bootstrap component. You should now have idea for the process for how to implement a Bootstrap component using the documentation and examples Bootstrap provides.
 
-In the next section, we'll put all of the skills and knowledge to practice by implementing a couple more sections for our landing page. 
+In the next section, we'll put all of the skills and knowledge to practice by implementing a couple more sections for our landing page.
 
 Get ready–this time you'll be doing the majority of the work!
