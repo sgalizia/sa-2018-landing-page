@@ -1,13 +1,13 @@
 ---
-title: "Stylin With CSS"
+title: "Stylin' With CSS"
 slug: stylin-with-css
 ---
 
-We've started to add the content of our landing page, however, it still looks pretty bland (and nothing like our design.) This is because we haven't added any styling yet. 
+We've started to add the content of our landing page, however, it still looks pretty bland (and nothing like our design). This is because we haven't added any styling yet.
 
 CSS to the rescue!
 
-# What is CSS?
+## What is CSS?
 
 CSS (Cascading Style Sheets) is a stylesheet language that is used to format your HTML document. In other words, by writing CSS, you can customize and style how your HTML elements look.
 
@@ -17,7 +17,7 @@ To get a better idea of the relationship between HTML and CSS, let's take a look
 
 ## How HTML/CSS Work Together
 
-[CSS Zen Garden](http://www.csszengarden.com/) is a website that highlights CSS and it's role of adding style to a HTML document.
+[CSS Zen Garden](http://www.csszengarden.com/) is a website that highlights CSS and its role of adding style to a HTML document.
 
 In the first paragraph of text, you should see two links to download the HTML and CSS respectively.
 
@@ -39,7 +39,7 @@ Go to the [CSS Zen Garden](http://www.csszengarden.com/) web page and click on t
 >
 ![CSS Zen All Designs](assets/css_zen_all_designs.jpg)
 
-On the next page you'll see a gallery of different web pages. Each design is created from the exact same HTML document, with the **exact same** HTML elements. 
+On the next page you'll see a gallery of different web pages. Each design is created from the exact same HTML document, with the **exact same** HTML elements.
 
 The only difference? The CSS that's applied to how the HTML elements are styled.
 
@@ -135,7 +135,7 @@ Enough talking. Let's test it out.
 
 # Writing our First CSS Rule
 
-Let's create our first CSS rule. 
+Let's create our first CSS rule.
 
 > [action]
 >
@@ -215,7 +215,7 @@ The next, probably most common selector you'll use, is the class selector. Class
 <tagName class="example-class">Insert some content here...</tagName>
 ```
 
-Adding a class is as simple as inserting a new `class` attribute inside of the opening tag of an HTML element. For example, if we wanted to add a `inverted-colors` class to a <p> element, we could do the following:
+Adding a class is as simple as inserting a new `class` attribute inside of the opening tag of an HTML element. For example, if we wanted to add a `inverted-colors` class to a `<p>` element, we could do the following:
 
 ```
 <p class="inverted-colors">Insert some paragraph text here...</p>
@@ -242,7 +242,7 @@ Add `inverted-colors` to `style.css`:
 .inverted-colors {
   /* black */
   background-color: #000000;  
-
+>
   /* white */
   color: #ffffff;             
 }
@@ -388,7 +388,7 @@ In your `style.css` you should add the following:
 >
 After refreshing your browser, your landing page should look like the following:
 >
-![Unique List Item](assets/unique_list_item.png)
+![Unique List Item](assets/unique_list_item.jpg)
 
 # Back to Scratch
 
