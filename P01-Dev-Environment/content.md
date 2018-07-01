@@ -37,7 +37,7 @@ Another reason many developers prefer Chrome is because of _Chrome Developer Too
 ## Downloading Chrome
 
 > [info]
-If you've already installed Chrome on your computer, make sure it's updated to the latest version before continuing onto the next section, _How The Internet Works_.
+If you've already installed Chrome on your computer, make sure it's updated to the latest version before continuing onto the next section.
 
 To download Google Chrome, find your operating system and follow the corresponding set of instructions below:
 
@@ -98,9 +98,24 @@ Install Atom by doing the following:
 
 <!-- TODO: (optional) add section to install some key packages and theming -->
 
+## Setting up a Workspace
+
+Before getting started with Atom, we should set up a space to store all of our code for this project and future projects. 
+
+You might hear this referred to as a workspace. A workspace is simply a directory to store all of your projects in one place.
+
+To give you an example, you might set up your workspace in your home directory on macOS like so `~/Code/`. Creating a workspace helps to keep everything organized and in one easy to find place.
+
+On macOS, Windows, and Linux it does not matter whether you use the command line or the filesystem explorer. Use the method you are most comfortable with.
+
+You can create a directory where ever you feel comfortable. Just make sure that you remember where you created it! You will need to navigate to it in the next section.
+
+> [action]
+Open your terminal or filesystem and create a workspace directory to store all of your projects.
+
 ## Getting Started with Atom
 
-After downloading and installing Atom, go ahead and open your new text editor.
+Now that we have a workspace set up, go ahead and open your new text editor.
 
 > [action]
 Open the Atom text editor. You should see the following:
@@ -114,9 +129,9 @@ Next, let's save our new _untitled_ file in the right place.
 > [action]
 Before saving, make sure you read and follow all the steps below:
 >
-1. Save the _untitled_ file by pressing the shortcut `CMD-s` or selecting the _Save_ command in the _File menu_. ![Save File](assets/save_file.jpg)
+1. Save the _untitled_ file by pressing the shortcut `CMD-S` or selecting the _Save_ command in the _File menu_. ![Save File](assets/save_file.jpg)
 1. In the prompt, save with the file name `index.html`. It's important to include the extension `.html`. ![Save File Name](assets/save_file_name.jpg)
-1. Find a easy-to-find file path (i.e. `~/Code/html/`) on your computer to save all the files for your soon-to-be landing page. Make sure you create a new folder called `cats_landing_page` to contain any additional files that we add later. ![Landing Page File Path](assets/file_path.jpg)
+1. Navigate to your workspace you set up int he previous section (i.e. `~/Code/`) on your computer to save all the files for your soon-to-be landing page. Make sure you create a new folder called `cats_landing_page` to contain any additional files that we add later. ![Landing Page File Path](assets/file_path.jpg)
 1. Click the `Save` button to finish creating your new `index.html` file. ![Click Save](assets/click_save.jpg)
 
 With _Atom_ installed and our new `index.html` file created, let's begin learning about HTML and how to build the content for our landing page.
