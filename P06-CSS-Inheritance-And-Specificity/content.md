@@ -60,7 +60,7 @@ ul {
   margin-top: 25px;
   padding: 30px 55px;
 }
->
+
 li {
   margin-bottom: 8px;
 }
@@ -151,6 +151,8 @@ If we calculate the specificity for the selector `.blue`, we'll get the followin
 >
 The specificity value is 0,0,1,0.
 
+<!-- break -->
+
 > [challenge]
 >
 What is the specificity value of the selector: `header #sign-up-btn`?
@@ -174,12 +176,12 @@ Given the following HTML and CSS, what color will the paragraph text be when dis
 <div class="outer">
   <p id="p-element">This is a paragraph element.</p>
 </div>
-
+>
 <!-- CSS -->
 .outer p {
   color: red;
 }
-
+>
 #p-element {
   color: blue;
 }
