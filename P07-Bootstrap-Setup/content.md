@@ -71,6 +71,8 @@ In `index.html`, modify your `<head>` element to the following:
 1. We add a new responsive view meta tag to our `<head>` so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile). We'll learn more about responsiveness, what it is and how to use it later on.
 2. We add a link to a CSS stylesheet of the Bootstrap CSS.
 
+<!--  -->
+
 > [info]
 >
 It's important that the link to the Bootstrap CSS stylesheet is placed **above** the link to our project's individual `style.css` stylesheet. This is because if CSS rules across multiple stylesheets have the same CSS specificity, then the CSS rule that is written latest (in order) will be applied.
@@ -84,7 +86,7 @@ In `index.html`, add the following JavaScript scripts just before the closing `<
 ```
 <body>
   <!-- ... previous HTML content -->
-
+>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -118,7 +120,7 @@ With Bootstrap installed, we'll look at how we can use Bootstrap's CSS to style 
 
 ## Text Alignment
 
-To center our HTML elements, we'll use a Bootstrap class named `text-center` that adjusts the `text-alignment` property to be `center`. 
+To center our HTML elements, we'll use a Bootstrap class named `text-center` that adjusts the `text-alignment` property to be `center`.
 
 > [challenge]
 >
