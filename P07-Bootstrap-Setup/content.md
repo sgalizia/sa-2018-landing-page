@@ -68,7 +68,7 @@ In `index.html`, modify your `<head>` element to the following:
 </head>
 ```
 >
-1. We add a new responsive view meta tag to our `<head>` so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile.) We'll learn more about responsiveness, what it is and how to use it later on.
+1. We add a new responsive view meta tag to our `<head>` so that Bootstrap is responsive across multiple screen sizes (laptop, tablet, mobile). We'll learn more about responsiveness, what it is and how to use it later on.
 2. We add a link to a CSS stylesheet of the Bootstrap CSS.
 
 > [info]

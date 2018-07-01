@@ -259,7 +259,7 @@ In your stylesheet:
 }
 ```
 >
-We target the `.first-section` class and add a declaration to give it a white background. Nothing should change because the background should already be white (by default.) We're just making more explicit.
+We target the `.first-section` class and add a declaration to give it a white background. Nothing should change because the background should already be white (by default). We're just making more explicit.
 
 Last, we'll create a re-usable class that we'll use to position each of our landing page's sections. We'll start by creating the CSS rule in our stylesheet.
 

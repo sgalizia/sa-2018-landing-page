@@ -13,7 +13,7 @@ In this section, we'll learn to use Bootstrap's grid system to position the cont
 
 To use the grid, there's some setup that we'll need in our HTML. To start, each grid needs to be wrapped within a `<div>` with Bootstrap's [container class](http://getbootstrap.com/docs/4.0/layout/overview/#containers).
 
-The container defines how large the width of our grid will be (the span of the screen that your content can potentially cover.)
+The container defines how large the width of our grid will be (the span of the screen that your content can potentially cover).
 
 ![Container Layout](assets/container.jpg)
 
@@ -980,7 +980,7 @@ Try resizing your browser and seeing how our column sizing adjusts as each grid 
 
 Let's move onto something a little more challenging. This time, you'll lead the implementation.
 
-We're going to build out the row of treats in our second section which is a row of different sweets (that cat's can't taste.)
+We're going to build out the row of treats in our second section which is a row of different sweets (that cat's can't taste).
 
 Here's the design we'll be following:
 

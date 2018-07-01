@@ -3,7 +3,7 @@ title: "Introduction"
 slug: intro-landing-page
 ---
 
-Welcome to the first tutorial of Make School's full-stack web series! As you progress through each of the tutorials, your powers and coding wizardry will become increasingly stronger. Soon enough, you'll be able to build websites, make games and maybe even create the next billion-dollar startup (if that's your thing.)
+Welcome to the first tutorial of Make School's full-stack web series! As you progress through each of the tutorials, your powers and coding wizardry will become increasingly stronger. Soon enough, you'll be able to build websites, make games and maybe even create the next billion-dollar startup (if that's your thing).
 
 This first tutorial is a call to adventure – the start of your journey into the magical world of building full-stack web apps.
 
