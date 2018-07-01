@@ -13,7 +13,7 @@ As we code, we'll want to see how our code is displayed in the browser. To do so
 
 # Opening a HTML File with Chrome
 
-Without a web browser, you won't be able to see how your web page looks (how the code is displayed.) While we're coding, we'll keep our `index.html` file open along-side in a browser to see our changes as they're made.
+Without a web browser, you won't be able to see how your web page looks (how the code is displayed). While we're coding, we'll keep our `index.html` file open alongside in a browser to see our changes as they're made.
 
 > [action]
 >
@@ -62,24 +62,20 @@ Firsts are special. To get our web page to display "Hello, World!", we'll need t
 Inside the two body tags, of the HTML boilerplate, add the following line of code:
 >
 ```
-...
-
 <body>
   <h1>Hello, World!</h1>
 </body>
-
-...
 ```
 
-That's it! Easy like cake. 
+That's it! Easy like cake.
 
-Don't forget to save the file. 
+Don't forget to save the file.
 
 To see what changed, we'll need to navigate back to our browser.
 
 ## Seeing our Changes
 
-Let's look at how to view the changes we've made after we've made modications and saved them in our HTML document. 
+Let's look at how to view the changes we've made after we've made modications and saved them in our HTML document.
 
 Make a mental note to remember this! You'll be doing it often.
 
@@ -138,7 +134,7 @@ Let's look at the element structure of a common void element:
 
 In the example above, we breakdown an image element that allows us to insert images in our HTML.
 
-You'll notice that the opening tag contains the tag name and a few other attributes. Attributes are key/value pairs that provide additional information for the HTML element. 
+You'll notice that the opening tag contains the tag name and a few other attributes. Attributes are key/value pairs that provide additional information for the HTML element.
 
 If you don't quite understand what the image element is doing, don't worry. We'll cover the image element in full later in this section.
 
@@ -160,9 +156,9 @@ You might be tempted to think this is a void element. However, this is *not* a H
 
 Next, you'll notice the opening and closing tags of the `html` element. This is the top-level HTML element that will contain all of your other HTML tags.
 
-Next, within the `html` element, is the `head` element. The `head` element provides general information (referred to as metadata) about your web page to the browser. This includes links to your `.css` stylesheets and `.js` scripts (more on this later.)
+Next, within the `html` element, is the `head` element. The `head` element provides general information (referred to as metadata) about your web page to the browser. This includes links to your `.css` stylesheets and `.js` scripts (more on this later).
 
-Inside your `head` element, you'll notice a `title` element that's currently empty. This is the title of your HTML document. You'll notice to this point, the browser's title that's displayed on browser's tab is the name of your file. 
+Inside your `head` element, you'll notice a `title` element that's currently empty. This is the title of your HTML document. You'll notice to this point, the browser's title that's displayed on browser's tab is the name of your file.
 
 ![Tab File Title](assets/tab_file_title.png)
 
@@ -190,7 +186,7 @@ Now that we've covered all of the HTML elements that are currently in our `index
 
 # Common HTML Elements
 
-The first HTML elements we'll learn about will be your bread and butter for creating the content of a web page: section headings, paragraphs, and anchors (links.)
+The first HTML elements we'll learn about will be your bread and butter for creating the content of a web page: section headings, paragraphs, and anchors (links).
 
 Let's start with one we're already acquainted with: section headings.
 
@@ -249,7 +245,7 @@ One thing to note: once you click and visit a link, it's appearance will slightl
 
 We've learned about some basic HTML elements. Let's test our knowledge by starting to build the content of our landing page.
 
-Since we haven't introduced `.css`, we'll be focusing purely on implement the content of our design. (We'll learn about styling our HTML elements in the next section.)
+Since we haven't introduced `.css`, we'll be focusing purely on implement the content of our design. (We'll learn about styling our HTML elements in the next section).
 
 To start, let's review the final design of the header for our landing page:
 
@@ -263,11 +259,12 @@ Looks a lot different huh? In fact, with what we've learned about HTML elements,
 
 > [challenge]
 >
-Use the HTML elements that we've learned about (section heading, paragraph, anchor) to implement the code for the image below. 
+Use the HTML elements that we've learned about (section heading, paragraph, anchor) to implement the code for the image below.
 >
 ![Header With No CSS](assets/header_no_css.png)
 >
 Two additional notes to help you along:
+>
 - Don't forget to delete our previous "Hello, World!" code
 - The anchor element should point to the URL `https://www.sfspca.org/adoptions/cats`
 
@@ -311,7 +308,7 @@ Let's continue by learning about some more HTML elements that we can use in our 
 
 ### Image Element
 
-The image <img> element allows you to add images in your web page. The image element is a void element, meaning it doesn't have a closing tag. We can add a image to our HTML doc like so:
+The image `<img>` element allows you to add images in your web page. The image element is a void element, meaning it doesn't have a closing tag. We can add a image to our HTML doc like so:
 
 ```
 <img src="cat_pic.jpg" alt="cat">
@@ -352,11 +349,11 @@ For example, you can see the MDN docs to learn about what the _src_ and _alt_ at
 
 ### Unordered List
 
-A unordered list is a collection (aka list) of elements that is usually displayed as a bulleted list. To create a unordered list, we'll need to first add the opening and closing unordered list tags like so:
+An unordered list is a collection (aka list) of elements that is usually displayed as a bulleted list. To create a unordered list, we'll need to first add the opening and closing unordered list tags like so:
 
 ```
 <ul>
->
+
 </ul>
 ```
 
@@ -398,7 +395,7 @@ To review, the final design for our first section (not the header) will eventual
 
 ![First Section Design](assets/first_section_design.jpg)
 
-Like our header, we'll only be focusing building the content (for now.) The HTML without the styling for our first section will look like this:
+Like our header, we'll only be focusing building the content (for now). The HTML without the styling for our first section will look like this:
 
 ![First Section No Styling](assets/first_section_no_css.jpg)
 
