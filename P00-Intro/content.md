@@ -3,13 +3,13 @@ title: "Introduction"
 slug: intro-landing-page
 ---
 
-Welcome to the first tutorial of Make School's full-stack web series! As you progress through each of the tutorials, your powers and coding wizardry will become increasingly stronger. Soon enough, you've be able to build websites, make games and maybe even create the next billion-dollar startup (if that's your thing.)
+Welcome to the first tutorial of Make School's full-stack web series! As you progress through each of the tutorials, your powers and coding wizardry will become increasingly stronger. Soon enough, you'll be able to build websites, make games and maybe even create the next billion-dollar startup (if that's your thing.)
 
-This first tutorial is a call to adventure – the start of your journey into the magical world of building full-stack web apps. 
+This first tutorial is a call to adventure – the start of your journey into the magical world of building full-stack web apps.
 
 But first, like every great witch or wizard, you'll need to begin with the basics: learning about **how to build a web page**.
 
-Feeling nervious? Excited? Me too. 
+Feeling nervous? Excited? Me too.
 
 But don't worry, we'll go through this journey together.
 
@@ -17,13 +17,13 @@ When you're ready, strap a seat belt on your brain–you're going to need it!
 
 # What's a Landing Page?
 
-At Make School, one of our core beliefs is to learn by doing. 
+At Make School, one of our core beliefs is to learn by doing.
 
 Like Tai Lopez, we're all about that _knowledge_. But we believe that humans learn best through action – that means doing, making, building.
 
 These tutorials are designed to be *interactive*. You'll get to see _knowledge_ in action as we learn to build a couple different apps, games and products. When it's all through, our hope is that you'll take your newfound _knowledge_ and use it to create cool things to share with the world.
 
-In this upcoming tutorial, you'll learn about building web pages by building your very own landing page. 
+In this upcoming tutorial, you'll learn about building web pages by building your very own landing page.
 
 So what exactly is a landing page?
 
@@ -79,16 +79,18 @@ You can preview the finished landing page here:
 
 By the end of this tutorial, you will:
 
-- build responsive websites using HTML, CSS, and Bootstrap
-- learn to use appropriate HTML elements to display content
-- style HTML using CSS and Bootstrap
-- position content with Bootstrap's grid system
-- implement Bootstrap components and classes
-- properly structure HTML to re-create designs and wireframes
+- Build responsive websites using HTML, CSS, and Bootstrap
+- Learn to use appropriate HTML elements to display content
+- Style HTML using CSS and Bootstrap
+- Position content with Bootstrap's grid system
+- Implement Bootstrap components and classes
+- Properly structure HTML to re-create designs and wireframes
 
 
 # If You Get Stuck
 
 "Sometimes, magic is just someone spending more time on something than anyone else might reasonably expect." - Teller (Penn & Teller)
 
-Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk.) Make sure you've follow each step of the tutorial. It's easy to make typos or to accidentally skip over important steps.
+Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk).
+
+Make sure you follow each step of the tutorial. It's easy to make typos or to accidentally skip over important steps.
