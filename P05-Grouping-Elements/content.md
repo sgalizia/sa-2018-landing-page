@@ -17,7 +17,7 @@ There are a number of additional tags that allow us to group related HTML conten
 
 # The Content Division Element
 
-The `<div>` tag is used to group other HTML content together. The `<div>` element doesn't add or change the content of your HTML. Instead, it's main purpose is to provide an easy way to target and each group.
+The `<div>` tag is used to group other HTML content together. The `<div>` element doesn't add or change the content of your HTML. Instead, its main purpose is to provide an easy way to target and each group.
 
 ## Creating a <div>
 
@@ -55,11 +55,11 @@ CSS:
 }
 ```
 
-When we're done, you can see our `<div>` and it's content displayed in the browser like so:
+When we're done, you can see our `<div>` and its content displayed in the browser like so:
 
 ![Styled Div](assets/styled_div.png)
 
-Notice how we're able to use the `margin` and `padding` properties of our containing `<div>` to position the elements within. In this case, add 20 pixels of padding between each edge of the `<div>` and it's content.
+Notice how we're able to use the `margin` and `padding` properties of our containing `<div>` to position the elements within. In this case, add 20 pixels of padding between each edge of the `<div>` and its content.
 
 ![Div Box Model Breakdown](assets/div_box_model_breakdown.png)
 
@@ -69,7 +69,7 @@ Grouping HTML elements with `<div>` tags also makes it much easier to specifical
 
 ## Grouping our Elements
 
-Let's go ahead and start grouping the HTML elements in `index.html` into thier respective `<div>` tags.
+Let's go ahead and start grouping the HTML elements in `index.html` into their respective `<div>` tags.
 
 > [challenge]
 >
@@ -110,6 +110,8 @@ You should have two separate opening and closing `<div>` tags that group the HTM
 ```
 >
 Notice that each opening and closing `<div>` tag contains it's group of related elements. This will make it easier for us to use CSS position and style each division.
+
+<!--  -->
 
 > [action]
 >
