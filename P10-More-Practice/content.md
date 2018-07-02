@@ -99,7 +99,7 @@ Let's build the last content section of our landing page. To review the design:
 
 ![Fourth Section Design](assets/fourth_section_design.jpg)
 
-You've done this before. Take from here.
+You've done this before. Take it from here.
 
 > [challenge]
 >
@@ -201,7 +201,7 @@ footer {
   background-color: white;
   padding: 35px 0;
 }
-
+>
 .footer-logo {
   height: 22px;
   margin-bottom: 3px;
