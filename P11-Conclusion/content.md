@@ -5,18 +5,18 @@ slug: conclusion
 
 Congrats! You've built your first landing page.
 
-![Landing Page](assets/landing_page_design.jpg**
+![Landing Page](assets/landing_page_design.jpg)
 
 You taken your first steps on your journey to become an full-stack web developer.
 
 In this tutorial, you were introduced to many new concepts in front-end development. To recap, you learned how to...
 
-- build responsive websites using HTML, CSS, and Bootstrap
-- learn to use appropriate HTML elements to display content
-- style HTML using CSS and Bootstrap
-- position content with Bootstrap's grid system
-- implement Bootstrap components and classes
-- properly structure HTML to re-create designs and wireframes
+- Build responsive websites using HTML, CSS, and Bootstrap
+- Learn to use appropriate HTML elements to display content
+- Style HTML using CSS and Bootstrap
+- Position content with Bootstrap's grid system
+- Implement Bootstrap components and classes
+- Properly structure HTML to re-create designs and wireframes
 
 Try to remember and visualize what you did for each of these steps in your head.
 
@@ -43,7 +43,3 @@ We've provided a sample design if you're looking for reference. Spend no more th
 If you're looking for icons or graphic assets, check out [Icon Store](assets/https://iconstore.co/). If you have Sketch, you can also look for design assets at [Sketch App Sources](https://www.sketchappsources.com/).
 
 ![Sample Design](assets/sample_design.jpg)
-
-
-
-
