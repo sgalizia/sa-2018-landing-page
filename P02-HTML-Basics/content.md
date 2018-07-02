@@ -89,7 +89,7 @@ Success! Now we can see the code we wrote displayed by the browser.
 
 And just like that, we're done with "Hello, World!".
 
-Next, let's circle around and go through the code we've added so far in greater depth.
+Next, let's circle back and go through the code we've added so far in greater depth.
 
 # What's in a HTML Element?
 
